@@ -1,47 +1,72 @@
-# Debian Games Info
+# Debian Games Info  
 Fetches game details from Debian repositories and adds them to a CSV file.
 
-## Description
-This Python script processes a CSV file containing Linux game information, retrieves additional data from the Debian repositories, and outputs a new CSV with extended information. The script uses `apt-cache` to fetch the **Description-en**, **Tag**, and **Homepage** for each game.
+## Description  
+This project contains two Python scripts:
 
-## Requirements
-- Python 3.7 or higher
-- `pandas` library
+1. **`get_info.py`**: Processes a CSV file containing Linux game information, retrieves additional data from the Debian repositories, and outputs a new CSV with extended information. The script uses `apt-cache` to fetch the **Description-en**, **Tag**, and **Homepage** for each game.  
 
-## Setup
+2. **`game_reviewer.py`**: Allows you to review games from the generated CSV (`games_info.csv`) by selecting a random unreviewed game, displaying its details, and letting you add a score (0-5) and notes. The file is updated automatically.
 
-1. Clone or download the repository.
-2. Create and activate a virtual environment:
+## Requirements  
+- Python 3.7 or higher  
+- `pandas` library  
 
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate 
-   ```
+## Setup  
 
-3. Install the required dependencies:
+1. Clone or download the repository.  
+2. Create and activate a virtual environment:  
 
    ```bash
-   pip install -r requirements.txt
+   python3 -m venv venv  
+   source venv/bin/activate  
    ```
 
-4. Ensure that the input CSV file (`games_list.csv`) is in the same directory as the script. The CSV should contain the following columns:
-   - **Game Name**
-   - **Version**
-   - **Repository**
-   - **Short Description**
-
-## Usage
-
-1. Run the script:
+3. Install the required dependencies:  
 
    ```bash
-   python get_info.py
+   pip install -r requirements.txt  
    ```
 
-2. The script will process the input CSV and generate a new CSV file (`games_info.csv`) with the additional columns:
-   - **Description-en**
-   - **Tag**
-   - **Homepage**
+4. Ensure that the input CSV file (`games_list.csv`) is in the same directory as the scripts. The CSV should contain the following columns:  
+   - **Game Name**  
+   - **Version**  
+   - **Repository**  
+   - **Short Description**  
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Usage  
+
+### Fetch Debian Game Info  
+
+Run the script to generate `games_info.csv` with extended information:  
+
+```bash
+python get_info.py  
+```
+
+The output file will include these columns:  
+- **Description**  
+- **Tags**  
+- **Homepage**  
+
+### Review Games  
+
+Run the script to review games, add scores and notes:  
+
+```bash
+python game_reviewer.py  
+```
+
+It will:  
+- Select a random unreviewed game (no score or notes).  
+- Display the game details:  
+   - **Game Name**  
+   - **Description**  
+   - **Category**  
+   - **Interface**  
+   - Links to Homepage and Screenshots (if available).  
+- Prompt you to input a **score** (0-5) and **notes**.  
+- Update the `games_info.csv` file with your input.  
+
+## License  
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.  

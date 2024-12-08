@@ -24,14 +24,20 @@ def parse_debian_package_info(package_info):
     }
 
     lines = package_info.splitlines()
+    description = ''
+    
     for line in lines:
         if line.startswith('Description'):
-            info_dict['Description'] = line.split(' ', 1)[1]
+            # Start the description with the part after "Description"
+            description = line.split(' ', 1)[1] if len(line.split(' ', 1)) > 1 else ''
         elif line.startswith('Tags'):
-            info_dict['Tags'] = line.split(' ', 1)[1]
+            info_dict['Tags'] = line.split(' ', 1)[1] if len(line.split(' ', 1)) > 1 else ''
         elif line.startswith('Homepage'):
-            info_dict['Homepage'] = line.split(' ', 1)[1]
+            info_dict['Homepage'] = line.split(' ', 1)[1] if len(line.split(' ', 1)) > 1 else ''
+        elif line.startswith(' ') and description:  # Continue the description if the line starts with whitespace
+            description += '\n' + line.strip()  # Append and remove the leading whitespace from continuation lines
 
+    info_dict['Description'] = description  # Store the complete description
     return info_dict
 
 def process_tags(tags):
