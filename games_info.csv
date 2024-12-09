@@ -148,7 +148,7 @@ Barrage is a rather destructive action game that puts you on a shooting range wi
 bastet,0.43-5+b1,main,ncurses Tetris clone with a bastard algorithm,"ncurses Tetris clone with a bastard algorithm,,
 Bastet (""bastard Tetris"") is a free clone of Tetris which tries to compute how useful blocks are and gives you the worst possible brick. Playing bastet can be a painful experience, especially if you usually make ""canyons"" and wait for the long I-shaped block.","implemented-in::c, role::program, uitoolkit::ncurses, use::gameplaying",http://fph.altervista.org/prog/bastet.shtml,tetris,commandline,https://tracker.debian.org/pkg/bastet,https://screenshots.debian.net/package/bastet,,nan
 bb,1.3rc1-11,main,ASCII-art demo based on AAlib,"ASCII-art demo based on AAlib,,
-This package contains a 'high quality audio-visual demonstration' of ASCII-art using AAlib, a portable ASCII-art graphics library. This demonstration can be displayed in a text- or X11-terminal.","implemented-in::c, role::program, uitoolkit::ncurses, use::entertaining, use::viewing",https://aa-project.sourceforge.net/bb/,demos,commandline,https://tracker.debian.org/pkg/bb,https://screenshots.debian.net/package/bb,,nan
+This package contains a 'high quality audio-visual demonstration' of ASCII-art using AAlib, a portable ASCII-art graphics library. This demonstration can be displayed in a text- or X11-terminal.","implemented-in::c, role::program, uitoolkit::ncurses, use::entertaining, use::viewing",https://aa-project.sourceforge.net/bb/,demos,commandline,https://tracker.debian.org/pkg/bb,https://screenshots.debian.net/package/bb,0.0,nan
 beneath-a-steel-sky,0.0372-7,main,classic 2D point and click science fiction adventure game,"classic 2D point and click science fiction adventure game,,
 A science-fiction thriller set in a bleak post-apocalyptic vision of the future, Beneath a Steel Sky revolves around ""Union City"", where selfishness, rivalry, and corruption by its citizens seems to be all too common, those who can afford it live underground, away from the pollution and social problems which are plaguing the city.,,
 ,,
@@ -237,7 +237,7 @@ System requirements:,,
 blockout2,2.4+dfsg1-9,main,Tetris like game (3D-tetris),"Tetris like game (3D-tetris),,
 BlockOut II is a free adaptation of the original BlockOut DOS game edited by California Dreams in 1989. BlockOut II has the same features than the original game with few graphic improvements. The score calculation is also nearly similar to the original game. BlockOut II has been designed by an addicted player for addicted players. BlockOut II is an open source project available for both Windows and Linux.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://www.blockout.net/blockout2/,tetris,graphical,https://tracker.debian.org/pkg/blockout2,https://screenshots.debian.net/package/blockout2,5.0,"3d tetris, adaptation of the old game"
 blocks-of-the-undead,1.0-7,main,Tetris Attack clone with spooky undertones,"Tetris Attack clone with spooky undertones,,
-Blocks of the Undead is a puzzle game. You have to remove all the blocks on the field by swapping these around.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://www.gamecreation.org/game/blocks-undead,puzzle,graphical,https://tracker.debian.org/pkg/blocks-of-the-undead,https://screenshots.debian.net/package/blocks-of-the-undead,,nan
+Blocks of the Undead is a puzzle game. You have to remove all the blocks on the field by swapping these around.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://www.gamecreation.org/game/blocks-undead,puzzle,graphical,https://tracker.debian.org/pkg/blocks-of-the-undead,https://screenshots.debian.net/package/blocks-of-the-undead,0.0,ugly af
 bombardier,0.8.3+nmu1+b3,main,The GNU Bombing utility,"The GNU Bombing utility,,
 This game is the same as the old Blitz16 game on Commodore 16/Plus 4, written by Simon Taylor.,,
 ,,
@@ -437,7 +437,7 @@ This is the graphical (tiles) version.,,
 ,,
 This is the Stone Soup version of Dungeon Crawl.","implemented-in::c++, implemented-in::lua, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://crawl.develz.org/,rpg,graphical,https://tracker.debian.org/pkg/crawl-tiles,https://screenshots.debian.net/package/crawl-tiles,,nan
 crimson,0.5.2-1.1+b1,main,hex-based tactical game,"hex-based tactical game,,
-Crimson Fields is a hex-based tactical war game in the tradition of Battle Isle (tm). Two players command their units on a map of hexagons, trying to accomplish mission objectives ranging from defending important locations to simply destroying all enemy forces. The game can either be played in 'hot seat' mode, via email, or against the computer. Tools are available to create custom maps and campaigns. You can also play the original Battle Isle maps if you have a copy of the game.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://crimson.seul.org/,strategy,graphical,https://tracker.debian.org/pkg/crimson,https://screenshots.debian.net/package/crimson,,nan
+Crimson Fields is a hex-based tactical war game in the tradition of Battle Isle (tm). Two players command their units on a map of hexagons, trying to accomplish mission objectives ranging from defending important locations to simply destroying all enemy forces. The game can either be played in 'hot seat' mode, via email, or against the computer. Tools are available to create custom maps and campaigns. You can also play the original Battle Isle maps if you have a copy of the game.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://crimson.seul.org/,strategy,graphical,https://tracker.debian.org/pkg/crimson,https://screenshots.debian.net/package/crimson,4.0,clone og a other old game
 crispy-doom,5.4-3,main,Limit-raising medium-resolution Doom engine based on Chocolate Doom,"Limit-raising medium-resolution Doom engine based on Chocolate Doom,,
 Crispy Doom is a friendly fork of Chocolate Doom that provides a higher display resolution, removes the static limits of the Doom engine and offers further optional visual, tactical and physical enhancements while remaining entirely config file, savegame, netplay and demo compatible with the original.",uitoolkit::sdl,https://fabiangreffrath.github.io/crispy-homepage,,,https://tracker.debian.org/pkg/crispy-doom,https://screenshots.debian.net/package/crispy-doom,,nan
 criticalmass,1:1.0.0-6,main,Shoot-em-up a la galaxian,"Shoot-em-up a la galaxian,,
@@ -515,7 +515,7 @@ DDraceNetwork (DDNet) is an actively maintained version of DDRace, a Teeworlds m
 ,,
 This package contains the client binary for DDNet.",uitoolkit::sdl,https://ddnet.tw/,,,https://tracker.debian.org/pkg/ddnet,https://screenshots.debian.net/package/ddnet,,nan
 deal,3.1.9-11,main,bridge hand generator,"bridge hand generator,,
-This program generates bridge hands. It can be told to generate only hands satisfying conditions like being balanced, having a range of HCPs, controls, or other user-definable properties. Hands can be output in various formats, like pbn for feeding to other bridge programs, deal itself, or split up into a file per player for practise. Extensible via Tcl.","implemented-in::c, implemented-in::tcl, role::program, scope::utility, use::gameplaying",https://bridge.thomasoandrews.com/deal/,card,commandline,https://tracker.debian.org/pkg/deal,https://screenshots.debian.net/package/deal,,nan
+This program generates bridge hands. It can be told to generate only hands satisfying conditions like being balanced, having a range of HCPs, controls, or other user-definable properties. Hands can be output in various formats, like pbn for feeding to other bridge programs, deal itself, or split up into a file per player for practise. Extensible via Tcl.","implemented-in::c, implemented-in::tcl, role::program, scope::utility, use::gameplaying",https://bridge.thomasoandrews.com/deal/,card,commandline,https://tracker.debian.org/pkg/deal,https://screenshots.debian.net/package/deal,0.0,nah!
 dealer,20161012-4,main,bridge hand generator,"bridge hand generator,,
 This program generates bridge hands for partnerships bidding training or for generating statistics that can be used to design conventions, or win postmortems. Dealer has been used in many bridge publications.,,
 ,,
@@ -715,7 +715,7 @@ Enemylines 3 is a single-player game. You have to shoot evil robots before they 
 enemylines7,0.6-4+b2,main,first person 3d-shooter game,"first person 3d-shooter game,,
 Enemy Lines 7 is a single-player game. You have to shoot down enemy bombers threatening your city in a three-dimensional environment.,,
 ,,
-Enemy bombers are approaching Glysen, your capital. The situation is without hope. But with the new experimental mech you can at least try to take as many of them with you as possible.","implemented-in::c++, role::program, uitoolkit::glut, uitoolkit::sdl, use::gameplaying, x11::application",http://proj.phk.at/el/7/,fps,"graphical, 3d",https://tracker.debian.org/pkg/enemylines7,https://screenshots.debian.net/package/enemylines7,,nan
+Enemy bombers are approaching Glysen, your capital. The situation is without hope. But with the new experimental mech you can at least try to take as many of them with you as possible.","implemented-in::c++, role::program, uitoolkit::glut, uitoolkit::sdl, use::gameplaying, x11::application",http://proj.phk.at/el/7/,fps,"graphical, 3d",https://tracker.debian.org/pkg/enemylines7,https://screenshots.debian.net/package/enemylines7,0.0,too simple
 enigma,1.20-dfsg.1-2.1+b2,main,Game where you control a marble with the mouse,"Game where you control a marble with the mouse,,
 Enigma is a puzzle game similar to Oxyd on the Atari ST or Rock'n'Roll on the Amiga and good old Marble Madness. It also has Sokoban levels, and some interesting twists on the original sokoban concept.,,
 ,,
@@ -967,7 +967,7 @@ The object of the game is to build a line of four of your marbles while trying t
 freealchemist,0.5-1,main,simpler figure block game,"simpler figure block game,,
 FreeAlchemist is a figure block game written in Python where you have to connect blocks.,,
 ,,
-The three or more blocks connected with the same shape will be replaced by a block with a different shape.","implemented-in::python, role::program, use::gameplaying",https://github.com/dakk/FreeAlchemist,tetris,,https://tracker.debian.org/pkg/freealchemist,https://screenshots.debian.net/package/freealchemist,,nan
+The three or more blocks connected with the same shape will be replaced by a block with a different shape.","implemented-in::python, role::program, use::gameplaying",https://github.com/dakk/FreeAlchemist,tetris,,https://tracker.debian.org/pkg/freealchemist,https://screenshots.debian.net/package/freealchemist,4.0,super basic but interesting
 freecell-solver-bin,5.0.0-2,main,Library for solving Freecell games,"Library for solving Freecell games,,
 Freecell Solver is a library for automatically solving boards of Freecell and similar variants of card Solitaire. This package contains the header files and static libraries necessary for developing programs using Freecell Solver.,,
 ,,
@@ -1097,7 +1097,7 @@ Galois is a computer game of the ""falling blocks"" type, but with unique featur
 gamazons,0.83-9,main,Amazons boardgame for GNOME,"Amazons boardgame for GNOME,,
 Amazons is a game played on a 10x10 chess board. Each side has four pieces (amazons) that move like chess queens (in a straight line in any direction). Instead of capturing pieces like in chess, the game is determined based on who moves last.,,
 ,,
-Each move consists of two parts. First an amazon moves to a new square and then fires an arrow to another square (the arrow is fired in a straight line in any direction from the square the amazon landed on). The square the arrow lands on becomes a permenant block for the rest of the game. No one can move over it, or fire an arrow over it. Every turn an amazon must move and fire an arrow, so every turn there is one less square available on the board. Try and block in your opponent or section off a good chunk of the board for yourself.","implemented-in::c, role::program, uitoolkit::gtk, use::gameplaying, x11::application",http://www.yorgalily.org/gamazons/,board,graphical,https://tracker.debian.org/pkg/gamazons,https://screenshots.debian.net/package/gamazons,,nan
+Each move consists of two parts. First an amazon moves to a new square and then fires an arrow to another square (the arrow is fired in a straight line in any direction from the square the amazon landed on). The square the arrow lands on becomes a permenant block for the rest of the game. No one can move over it, or fire an arrow over it. Every turn an amazon must move and fire an arrow, so every turn there is one less square available on the board. Try and block in your opponent or section off a good chunk of the board for yourself.","implemented-in::c, role::program, uitoolkit::gtk, use::gameplaying, x11::application",http://www.yorgalily.org/gamazons/,board,graphical,https://tracker.debian.org/pkg/gamazons,https://screenshots.debian.net/package/gamazons,1.0,chess like game
 gameclock,5.1,main,simple chess clock to track time in real life games,,,,,,https://tracker.debian.org/pkg/gameclock,https://screenshots.debian.net/package/gameclock,,nan
 gamine,1.6-1,main,Interactive game for young children,"Interactive game for young children,,
 Gamine is a game designed for 2 years old children who are not able to use a keyboard.,,
@@ -1614,7 +1614,7 @@ This package is part of the KDE games module.",uitoolkit::qt,http://games.kde.or
 knetwalk,4:18.04.1-1,main,wire puzzle game,"wire puzzle game,,
 KNetwalk is a puzzle game where the player arranges sections of wire to connect all the computers on the board.,,
 ,,
-This package is part of the KDE games module.","admin::configuring, implemented-in::c++, role::program, suite::kde, uitoolkit::qt, use::gameplaying, x11::application",http://games.kde.org/,puzzle,graphical,https://tracker.debian.org/pkg/knetwalk,https://screenshots.debian.net/package/knetwalk,,nan
+This package is part of the KDE games module.","admin::configuring, implemented-in::c++, role::program, suite::kde, uitoolkit::qt, use::gameplaying, x11::application",http://games.kde.org/,puzzle,graphical,https://tracker.debian.org/pkg/knetwalk,https://screenshots.debian.net/package/knetwalk,2.0,nan
 knights,18.12.0-1,main,chess interface for the KDE Platform,"chess interface for the KDE Platform,,
 Knights aims to be the ultimate chess resource on your computer. It's designed to be both friendly to new chess players and functional for Grand Masters. At the moment you can play either against other human or against the machine using an engine like gnuchess.","implemented-in::c++, role::program, suite::kde, uitoolkit::qt, use::gameplaying, x11::application",https://www.kde.org/applications/games/knights/,board,graphical,https://tracker.debian.org/pkg/knights,https://screenshots.debian.net/package/knights,,nan
 kobodeluxe,0.5.1-10,main,game of space battle,"game of space battle,,
@@ -1694,7 +1694,7 @@ Kubrick is a game based on Rubik's Cube and using OpenGL 3-D graphics libraries.
 ,,
 Kubrick handles cubes, ""bricks"" and ""mats"" from 2x2x1 up to 6x6x6. It has several built-in puzzles of graded difficulty, as well as demos of solving moves and pretty patterns. The game has unlimited undo, redo, save and reload capabilities.,,
 ,,
-This package is part of the KDE games module.","hardware::opengl, implemented-in::c++, role::program, suite::kde, uitoolkit::qt, use::gameplaying, x11::application",http://games.kde.org/,puzzle,graphical,https://tracker.debian.org/pkg/kubrick,https://screenshots.debian.net/package/kubrick,,nan
+This package is part of the KDE games module.","hardware::opengl, implemented-in::c++, role::program, suite::kde, uitoolkit::qt, use::gameplaying, x11::application",http://games.kde.org/,puzzle,graphical,https://tracker.debian.org/pkg/kubrick,https://screenshots.debian.net/package/kubrick,3.0,rubik game
 laby,0.6.4-2+b1,main,Learn how to program with ants and spider webs,"Learn how to program with ants and spider webs,,
 Laby is a small program to learn how to program with ants and spider webs. You have to move an ant out of a labyrinth, avoid spider webs, move rocks, etc.,,
 ,,
@@ -1807,7 +1807,7 @@ This wrappers makes Gambatte API compatible with libretro, thus allowing its use
 ,,
 Gambatte is a portable, open-source Game Boy and Game Boy Color emulator.,,
 ,,
-Game Boy and Game Boy Color are registered trademarks of Nintendo of America Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned.",,http://gambatte.sourceforge.net,,,https://tracker.debian.org/pkg/libretro-gambatte,https://screenshots.debian.net/package/libretro-gambatte,,nan
+Game Boy and Game Boy Color are registered trademarks of Nintendo of America Inc. Gambatte is not affiliated with or endorsed by any of the companies mentioned.",,http://gambatte.sourceforge.net,,,https://tracker.debian.org/pkg/libretro-gambatte,https://screenshots.debian.net/package/libretro-gambatte,0.0,addon
 libretro-genesisplusgx,1.7.4+git20160410-1,non-free,Libretro wrapper for Genesis Plus GX,"Libretro wrapper for Genesis Plus GX,,
 This wrapper makes Genesis Plus GX API compatible with libretro, thus allowing its use with libretro frontends, such as RetroArch.,,
 ,,
@@ -2186,7 +2186,7 @@ A classical vertical arcade shooter with an abstract theme and matching electron
 nsnake,3.0.1-2+b4,main,classic snake game on the terminal,"classic snake game on the terminal,,
 nsnake is a clone of the snake game found on old cellphones. It is played on the command-line with textual interface, thanks to ncurses.,,
 ,,
-Features high-scores, several game modes, a GUI-like interface and custom levels.","role::program, uitoolkit::ncurses, x11::application",http://nsnake.alexdantas.net/,,graphical,https://tracker.debian.org/pkg/nsnake,https://screenshots.debian.net/package/nsnake,,nan
+Features high-scores, several game modes, a GUI-like interface and custom levels.","role::program, uitoolkit::ncurses, x11::application",http://nsnake.alexdantas.net/,,graphical,https://tracker.debian.org/pkg/nsnake,https://screenshots.debian.net/package/nsnake,3.0,looks like a good snake for the terminal
 nudoku,1.0.0-1,main,ncurses based sudoku games,"ncurses based sudoku games,,
 This is an ncurses based Sudoku variant.",uitoolkit::ncurses,https://github.com/jubalh/nudoku,,,https://tracker.debian.org/pkg/nudoku,https://screenshots.debian.net/package/nudoku,,nan
 numptyphysics,0.2+svn157-0.3+b1,main,crayon based physics puzzle game,"crayon based physics puzzle game,,
@@ -2216,7 +2216,7 @@ This is the last descendent of the original 1976 Colossal Cave Adventure worked 
 open-invaders,0.3-4.3+b1,main,Space Invaders clone,"Space Invaders clone,,
 Space Invaders is one of the earliest arcade shoot 'em up games. The player can move horizontally across the bottom of the screen and must shoot at an incoming wave of aliens before they reach the bottom.,,
 ,,
-Open Invaders is a clone of the legendary 70's classic, but with completely new graphics, several bonus levels, etc.","hardware::input:keyboard, implemented-in::c++, role::program, uitoolkit::xlib, use::gameplaying, x11::application",https://sourceforge.net/projects/open-invaders,arcade,graphical,https://tracker.debian.org/pkg/open-invaders,https://screenshots.debian.net/package/open-invaders,,nan
+Open Invaders is a clone of the legendary 70's classic, but with completely new graphics, several bonus levels, etc.","hardware::input:keyboard, implemented-in::c++, role::program, uitoolkit::xlib, use::gameplaying, x11::application",https://sourceforge.net/projects/open-invaders,arcade,graphical,https://tracker.debian.org/pkg/open-invaders,https://screenshots.debian.net/package/open-invaders,4.0,clone of space invaders
 openarena,0.8.8+dfsg-2,main,fast-paced 3D first-person shooter,"fast-paced 3D first-person shooter,,
 OpenArena is an open-source content package for ioQuake3 licensed under the GPL, effectively creating a free stand-alone game. Though OpenArena is a free replacement for id Software Inc.'s Quake 3 Arena, it is NOT compatible with the proprietary game!,,
 ,,
@@ -2478,7 +2478,7 @@ Here a source program is a grammar definition, the execution consists in the exp
 ,,
 Though PolyGen is quite a serious piece of software then, what else would be more noble for it than being used as a parody tool for linguistical habits, stereotypes and trends of this foolish era?,,
 ,,
-Principles of parody are focusing a ridiculous topic and eventually abstracting its rules and schemes (here in terms of a grammar definition) by which reproducing it through the variatio device.  And randomization is perfect at this purpose thanks to its purely asemantic behaviour =:)","devel::interpreter, implemented-in::ocaml, role::program, scope::utility, use::entertaining, works-with::text",http://polygen.org/,toys,commandline,https://tracker.debian.org/pkg/polygen,https://screenshots.debian.net/package/polygen,,nan
+Principles of parody are focusing a ridiculous topic and eventually abstracting its rules and schemes (here in terms of a grammar definition) by which reproducing it through the variatio device.  And randomization is perfect at this purpose thanks to its purely asemantic behaviour =:)","devel::interpreter, implemented-in::ocaml, role::program, scope::utility, use::entertaining, works-with::text",http://polygen.org/,toys,commandline,https://tracker.debian.org/pkg/polygen,https://screenshots.debian.net/package/polygen,0.0,nan
 polyglot,2.0.4-2,main,"chess engine protocol adaptor, connects UCI engines to xboard","chess engine protocol adaptor, connects UCI engines to xboard,,
 Common chess frontends have a winboard/xboard input interface, modern chess engines speak the UCI ""universal chess interface"" protocol. This protocol adaptor makes it possible to use standard chess frontends, like xboard or scid with UCI speaking engines and play chess against them.","implemented-in::c, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/polyglot,https://screenshots.debian.net/package/polyglot,,nan
 pong2,0.1.3-2,main,Remake of old arcade classic in OpenGL,"Remake of old arcade classic in OpenGL,,
@@ -2552,26 +2552,26 @@ There are games that use the 52 card International Pattern deck, games for the 7
 ,,
 Its features include modern look and feel (uses Ttk widget set), multiple cardsets and tableau backgrounds, sound, unlimited undo, player statistics, a hint system, demo games, a solitaire wizard, support for user written plug-ins, an integrated HTML help browser, and lots of documentation.,,
 ,,
-PySolFC is a fork of PySol Solitaire.","implemented-in::python, role::program, uitoolkit::tk, use::gameplaying, x11::application",https://pysolfc.sourceforge.io/,card,graphical,https://tracker.debian.org/pkg/pysolfc,https://screenshots.debian.net/package/pysolfc,,nan
+PySolFC is a fork of PySol Solitaire.","implemented-in::python, role::program, uitoolkit::tk, use::gameplaying, x11::application",https://pysolfc.sourceforge.io/,card,graphical,https://tracker.debian.org/pkg/pysolfc,https://screenshots.debian.net/package/pysolfc,5.0,a lot of solitary card games
 pysolfc-cardsets,2.0+dfsg2-2,main,additional card graphics for PysolFC,,,,,,https://tracker.debian.org/pkg/pysolfc-cardsets,https://screenshots.debian.net/package/pysolfc-cardsets,,nan
 pysycache,3.1-3.3,main,Educational game to teach children to use the mouse,,,,,,https://tracker.debian.org/pkg/pysycache,https://screenshots.debian.net/package/pysycache,,nan
-pysycache-buttons-beerabbit,3.1-3.3,main,Bee-rabbit images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-beerabbit,https://screenshots.debian.net/package/pysycache-buttons-beerabbit,,nan
-pysycache-buttons-crapaud,3.1-3.3,main,Crapaud images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-crapaud,https://screenshots.debian.net/package/pysycache-buttons-crapaud,,nan
-pysycache-buttons-ice,3.1-3.3,main,Ice images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-ice,https://screenshots.debian.net/package/pysycache-buttons-ice,,nan
-pysycache-buttons-wolf,3.1-3.3,main,Wolf images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-wolf,https://screenshots.debian.net/package/pysycache-buttons-wolf,,nan
-pysycache-click-dinosaurs,3.1-3.3,main,Dinosaurs images for click activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-click-dinosaurs,https://screenshots.debian.net/package/pysycache-click-dinosaurs,,nan
-pysycache-click-sea,3.1-3.3,main,Sea images for click activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-click-sea,https://screenshots.debian.net/package/pysycache-click-sea,,nan
-pysycache-dblclick-appleandpear,3.1-3.3,main,Apple and pear images for double click activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-dblclick-appleandpear,https://screenshots.debian.net/package/pysycache-dblclick-appleandpear,,nan
+pysycache-buttons-beerabbit,3.1-3.3,main,Bee-rabbit images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-beerabbit,https://screenshots.debian.net/package/pysycache-buttons-beerabbit,0.0,nan
+pysycache-buttons-crapaud,3.1-3.3,main,Crapaud images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-crapaud,https://screenshots.debian.net/package/pysycache-buttons-crapaud,0.0,addon
+pysycache-buttons-ice,3.1-3.3,main,Ice images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-ice,https://screenshots.debian.net/package/pysycache-buttons-ice,0.0,addon
+pysycache-buttons-wolf,3.1-3.3,main,Wolf images for buttons activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-buttons-wolf,https://screenshots.debian.net/package/pysycache-buttons-wolf,0.0,addon
+pysycache-click-dinosaurs,3.1-3.3,main,Dinosaurs images for click activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-click-dinosaurs,https://screenshots.debian.net/package/pysycache-click-dinosaurs,0.0,addon
+pysycache-click-sea,3.1-3.3,main,Sea images for click activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-click-sea,https://screenshots.debian.net/package/pysycache-click-sea,0.0,addon
+pysycache-dblclick-appleandpear,3.1-3.3,main,Apple and pear images for double click activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-dblclick-appleandpear,https://screenshots.debian.net/package/pysycache-dblclick-appleandpear,0.0,addon
 pysycache-dblclick-butterfly,3.1-3.3,main,Butterfly images for double click activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-dblclick-butterfly,https://screenshots.debian.net/package/pysycache-dblclick-butterfly,0.0,addon
-pysycache-images,3.1-3.3,main,Images for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-images,https://screenshots.debian.net/package/pysycache-images,,nan
-pysycache-move-animals,3.1-3.3,main,Animals images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-animals,https://screenshots.debian.net/package/pysycache-move-animals,,nan
-pysycache-move-food,3.1-3.3,main,Food images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-food,https://screenshots.debian.net/package/pysycache-move-food,,nan
-pysycache-move-plants,3.1-3.3,main,Plants images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-plants,https://screenshots.debian.net/package/pysycache-move-plants,,nan
+pysycache-images,3.1-3.3,main,Images for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-images,https://screenshots.debian.net/package/pysycache-images,0.0,addon
+pysycache-move-animals,3.1-3.3,main,Animals images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-animals,https://screenshots.debian.net/package/pysycache-move-animals,0.0,addon
+pysycache-move-food,3.1-3.3,main,Food images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-food,https://screenshots.debian.net/package/pysycache-move-food,0.0,addon
+pysycache-move-plants,3.1-3.3,main,Plants images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-plants,https://screenshots.debian.net/package/pysycache-move-plants,0.0,addon
 pysycache-move-sky,3.1-3.3,main,Sky images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-sky,https://screenshots.debian.net/package/pysycache-move-sky,0.0,project looks dead
 pysycache-move-sports,3.1-3.3,main,Sports images for mouse move activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-move-sports,https://screenshots.debian.net/package/pysycache-move-sports,0.0,is an addon
-pysycache-puzzle-cartoons,3.1-3.3,main,Cartoons images for puzzle activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-puzzle-cartoons,https://screenshots.debian.net/package/pysycache-puzzle-cartoons,,nan
-pysycache-puzzle-photos,3.1-3.3,main,Photos for puzzle activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-puzzle-photos,https://screenshots.debian.net/package/pysycache-puzzle-photos,,nan
-pysycache-sounds,3.1-3.3,main,Collection of sounds to be used with PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-sounds,https://screenshots.debian.net/package/pysycache-sounds,,nan
+pysycache-puzzle-cartoons,3.1-3.3,main,Cartoons images for puzzle activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-puzzle-cartoons,https://screenshots.debian.net/package/pysycache-puzzle-cartoons,0.0,addon
+pysycache-puzzle-photos,3.1-3.3,main,Photos for puzzle activities for PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-puzzle-photos,https://screenshots.debian.net/package/pysycache-puzzle-photos,0.0,addon
+pysycache-sounds,3.1-3.3,main,Collection of sounds to be used with PySyCache,,,,,,https://tracker.debian.org/pkg/pysycache-sounds,https://screenshots.debian.net/package/pysycache-sounds,0.0,addon
 python-pykaraoke,0.7.5-1.2+deb10u1,main,free CDG/MIDI/MPEG karaoke player,,,,,,https://tracker.debian.org/pkg/python-pykaraoke,https://screenshots.debian.net/package/python-pykaraoke,0.0,nan
 python-renpy,7.1.3+dfsg-2,main,framework for developing visual-novel type games - Python module,,,,,,https://tracker.debian.org/pkg/python-renpy,https://screenshots.debian.net/package/python-renpy,,nan
 python3-minecraftpi,0.22-1,main,Raspberry PI Minecraft API python client library,"Raspberry PI Minecraft API Python client library,,
@@ -2812,7 +2812,7 @@ You are an AI. Your goal is to acquire the necessary knowledge to become the sin
 sjaakii,1.4.1-1,main,"Sjaak II - computer player for many Chess variants, including Shogi and XiangQi","Sjaak II - computer player for many Chess variants, including Shogi and XiangQi,,
 Sjaak II is a computer player for a number of Chess-like games.  It can be used as a CECP (XBoard) engine, or in a colorful terminal mode.",,http://www.eglebbk.dds.nl/program/chess-index.html,,,https://tracker.debian.org/pkg/sjaakii,https://screenshots.debian.net/package/sjaakii,,nan
 sjeng,11.2-8+b4,main,chess program that plays many variants,"chess program that plays many variants,,
-Sjeng is a chess program that plays normal chess and many variants like crazyhouse, bughouse, suicide (aka giveaway or anti-chess) and losers. It can also play variants which have the same rules as normal chess, but a different starting position. It uses the XBoard/WinBoard interface by Tim Mann, so it can be used with xboard or eboard. It is also capable of playing on internet chess servers.","role::program, use::gameplaying, works-with::db, x11::application",http://sjeng.sourceforge.net,board,graphical,https://tracker.debian.org/pkg/sjeng,https://screenshots.debian.net/package/sjeng,,nan
+Sjeng is a chess program that plays normal chess and many variants like crazyhouse, bughouse, suicide (aka giveaway or anti-chess) and losers. It can also play variants which have the same rules as normal chess, but a different starting position. It uses the XBoard/WinBoard interface by Tim Mann, so it can be used with xboard or eboard. It is also capable of playing on internet chess servers.","role::program, use::gameplaying, works-with::db, x11::application",http://sjeng.sourceforge.net,board,graphical,https://tracker.debian.org/pkg/sjeng,https://screenshots.debian.net/package/sjeng,0.0,nan
 sl,5.02-1,main,Correct you if you type `sl' by mistake,"Correct you if you type `sl' by mistake,,
 Sl is a program that can display animations aimed to correct you if you type 'sl' by mistake. SL stands for Steam Locomotive.","role::program, uitoolkit::ncurses, use::entertaining",https://github.com/mtoyoda/sl,toys,commandline,https://tracker.debian.org/pkg/sl,https://screenshots.debian.net/package/sl,,nan
 slashem,0.0.7E7F3-9+b1,main,variant of Nethack,"variant of Nethack,,
@@ -2822,7 +2822,7 @@ The problem: The Amulet of Yendor has been stolen. Not only that but it appears 
 ,,
 This package contains the basic ASCII interface. For more fancy graphical interfaces see,,
 slashem-x11 - Simple graphic interface using Xaw,,
-slashem-sdl - Graphical interface using SDL","implemented-in::c, role::program, uitoolkit::ncurses, use::entertaining, use::gameplaying",http://www.slashem.org/,rpg,commandline,https://tracker.debian.org/pkg/slashem,https://screenshots.debian.net/package/slashem,,nan
+slashem-sdl - Graphical interface using SDL","implemented-in::c, role::program, uitoolkit::ncurses, use::entertaining, use::gameplaying",http://www.slashem.org/,rpg,commandline,https://tracker.debian.org/pkg/slashem,https://screenshots.debian.net/package/slashem,1.0,anothe rougelike
 slashem-gtk,0.0.7E7F3-9+b1,main,variant of Nethack (Gtk window port),"variant of Nethack (Gtk window port),,
 Super Lotsa Added Stuff Hack - Extended Magic (SLASH'EM) is a role-playing game where you control a single character. The interface and gameplay are similar in style to Rogue, ADOM, Angband and, of course, Nethack. You control the actions through the keyboard and view the world from an overhead perspective.,,
 ,,
@@ -3046,7 +3046,7 @@ Triplane Classic is a side-scrolling dogfighting game featuring solo missions an
 trophy,2.0.3-2,main,2D car racing action game,"2D car racing action game,,
 Trophy is a single-player racing game which combines elements from traditional race and action games. Lots of available extras enable features such as shooting, mines, barrels and many others.,,
 ,,
-This package contains the executable.","implemented-in::c++, role::program, use::gameplaying, x11::application",https://trophy.sourceforge.io/,racing,graphical,https://tracker.debian.org/pkg/trophy,https://screenshots.debian.net/package/trophy,,nan
+This package contains the executable.","implemented-in::c++, role::program, use::gameplaying, x11::application",https://trophy.sourceforge.io/,racing,graphical,https://tracker.debian.org/pkg/trophy,https://screenshots.debian.net/package/trophy,4.0,mixed graphics
 tumiki-fighters,0.2.dfsg1-9,main,sticky 2D shooter,"sticky 2D shooter,,
 Tumiki Fighters brings a different twist to the side-scrolling shooter genre. With simple 3D graphics, the player has to control a ship and shoot down the enemies. The player can swoop in and attach the wreckage to its own hull for bonus points and protection from enemy attacks. .,,
 ,,
@@ -3251,7 +3251,7 @@ Your goal is to remove all the bubbles from the game board. To do this you must 
 ,,
 XBubble features single player mode, two player mode and player vs. computer (five difficulty levels of the AI) and has nice graphics, but no sound.","role::program, uitoolkit::xlib, use::gameplaying, x11::application",http://alioth.debian.org/projects/xbubble/,tetris,graphical,https://tracker.debian.org/pkg/xbubble,https://screenshots.debian.net/package/xbubble,3.0,clone of popular game
 xchain,1.0.1-9,main,strategy game for 2-4 players,"strategy game for 2-4 players,,
-Chain Reaction is a classic strategy game for 2-4 players. Players take turns to place tokens on an 8x8 board. When a square exceeds its maximum value, it explodes, setting off the surrounding squares.","role::program, uitoolkit::tk, use::gameplaying, x11::application",,board,graphical,https://tracker.debian.org/pkg/xchain,https://screenshots.debian.net/package/xchain,,nan
+Chain Reaction is a classic strategy game for 2-4 players. Players take turns to place tokens on an 8x8 board. When a square exceeds its maximum value, it explodes, setting off the surrounding squares.","role::program, uitoolkit::tk, use::gameplaying, x11::application",,board,graphical,https://tracker.debian.org/pkg/xchain,https://screenshots.debian.net/package/xchain,2.0,seems too simple
 xcowsay,1.4-2,main,Graphical configurable talking cow,"Graphical configurable talking cow,,
 A GTK+ version of the classic cowsay Perl script. It displays a cute pop-up cow on your desktop with a speech bubble and some customizable text. There's also a dream mode where the cow can display images. It comes with a fortune(6) wrapper script, xcowfortune, which you can cron to deliver periodic fortune cookies via the cow.","implemented-in::c, role::program, uitoolkit::gtk, use::entertaining",http://www.doof.me.uk/xcowsay/,toys,graphical,https://tracker.debian.org/pkg/xcowsay,https://screenshots.debian.net/package/xcowsay,4.0,cowsay but in graphic mode!
 xdemineur,2.1.1-20,main,Yet another minesweeper for X,"Yet another minesweeper for X,,
