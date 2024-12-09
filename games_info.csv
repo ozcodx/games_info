@@ -2577,7 +2577,7 @@ python-renpy,7.1.3+dfsg-2,main,framework for developing visual-novel type games 
 python3-minecraftpi,0.22-1,main,Raspberry PI Minecraft API python client library,"Raspberry PI Minecraft API Python client library,,
 Make it easy to program minetest and minecraft from Python, as described in the book Learn to program using Minecraft.,,
 ,,
-This package provide the 'mcpi' Python library.","devel::lang:python, devel::library, implemented-in::python, role::devel-lib, use::gameplaying",https://github.com/sprintingkiwi/pycraft_mod,mud,,https://tracker.debian.org/pkg/python3-minecraftpi,https://screenshots.debian.net/package/python3-minecraftpi,,nan
+This package provide the 'mcpi' Python library.","devel::lang:python, devel::library, implemented-in::python, role::devel-lib, use::gameplaying",https://github.com/sprintingkiwi/pycraft_mod,mud,,https://tracker.debian.org/pkg/python3-minecraftpi,https://screenshots.debian.net/package/python3-minecraftpi,0.0,addon
 qgo,2.1~git-20180413-1,main,Go client and full featured SGF editor,"Go client and full featured SGF editor,,
 qGo is a computerized board on which you can play the game of Go against another player, view and edit smart-go files, and connect to Go servers on the internet. It can also interface with computer Go programs such as GNU Go that speak the Go modem protocol. Have a look at the cgoban package if you are interested in a Go client with less package dependencies.,,
 ,,
@@ -3249,7 +3249,7 @@ XBubble is a Puzzle Bubble / Bust-A-Move clone.,,
 ,,
 Your goal is to remove all the bubbles from the game board. To do this you must aim and shoot bubbles. When you manage to match 3 or more bubbles of the same color, they burst and disappear. All bubbles which hang free now, will fall down and disappear, too.,,
 ,,
-XBubble features single player mode, two player mode and player vs. computer (five difficulty levels of the AI) and has nice graphics, but no sound.","role::program, uitoolkit::xlib, use::gameplaying, x11::application",http://alioth.debian.org/projects/xbubble/,tetris,graphical,https://tracker.debian.org/pkg/xbubble,https://screenshots.debian.net/package/xbubble,,nan
+XBubble features single player mode, two player mode and player vs. computer (five difficulty levels of the AI) and has nice graphics, but no sound.","role::program, uitoolkit::xlib, use::gameplaying, x11::application",http://alioth.debian.org/projects/xbubble/,tetris,graphical,https://tracker.debian.org/pkg/xbubble,https://screenshots.debian.net/package/xbubble,3.0,clone of popular game
 xchain,1.0.1-9,main,strategy game for 2-4 players,"strategy game for 2-4 players,,
 Chain Reaction is a classic strategy game for 2-4 players. Players take turns to place tokens on an 8x8 board. When a square exceeds its maximum value, it explodes, setting off the surrounding squares.","role::program, uitoolkit::tk, use::gameplaying, x11::application",,board,graphical,https://tracker.debian.org/pkg/xchain,https://screenshots.debian.net/package/xchain,,nan
 xcowsay,1.4-2,main,Graphical configurable talking cow,"Graphical configurable talking cow,,
