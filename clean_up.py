@@ -38,7 +38,7 @@ def clean_file(input_file):
 
     # Save the updated file
     df.to_csv(input_file, index=False)
-    print("\nGame updated successfully. Exiting.")
+    print("\nDatabase updated successfully. Exiting.")
 
 # Entry point
 if __name__ == "__main__":

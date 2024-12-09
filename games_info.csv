@@ -190,7 +190,7 @@ Despite this high accuracy, even the most demanding software runs at full speed 
 blinken,4:17.08.3-2,main,KDE version of the Simon electronic memory game,"KDE version of the Simon electronic memory game,,
 Blinken is based on an electronic game released in 1978, which challenges players to remember sequences of increasing length.  On the face of the device, there are 4 different color buttons, each with its own distinctive sound.  These buttons light up randomly, creating the sequence that the player must then recall.  If the player is successful in remembering the sequence of lights in the correct order, they advance to the next stage, where an identical sequence with one extra step is presented.,,
 ,,
-This package is part of the KDE education module.","field::TODO, implemented-in::c++, role::program, suite::kde, uitoolkit::qt, use::gameplaying, use::learning, x11::application",https://edu.kde.org/applications/all/blinken,toys,graphical,https://tracker.debian.org/pkg/blinken,https://screenshots.debian.net/package/blinken,,nan
+This package is part of the KDE education module.","field::TODO, implemented-in::c++, role::program, suite::kde, uitoolkit::qt, use::gameplaying, use::learning, x11::application",https://edu.kde.org/applications/all/blinken,toys,graphical,https://tracker.debian.org/pkg/blinken,https://screenshots.debian.net/package/blinken,2.0,virtual simon says
 blobandconquer,1.11-dfsg+20-1.1,main,3D platform shooting game,"3D platform shooting game,,
 Blob Wars episode II: Blob and Conquer is the sequel to Blob Wars: Metal Blob Solid.,,
 ,,
@@ -680,7 +680,7 @@ eboard is a graphical chess program which can function as an interface to Intern
 ,,
 eboard has a themeable and freely resizable board, a tabbed or multi-window display, and supports multiple simultaneous boards.,,
 ,,
-This package contains a chess interface, which means that you can play against another human on the same computer, or play on an Internet server.  If you would like to play against a computer, you should install a chess engine such as gnuchess in addition.","role::program, uitoolkit::gtk, use::gameplaying, x11::application",https://www.bergo.eng.br/eboard/,board,graphical,https://tracker.debian.org/pkg/eboard,https://screenshots.debian.net/package/eboard,,nan
+This package contains a chess interface, which means that you can play against another human on the same computer, or play on an Internet server.  If you would like to play against a computer, you should install a chess engine such as gnuchess in addition.","role::program, uitoolkit::gtk, use::gameplaying, x11::application",https://www.bergo.eng.br/eboard/,board,graphical,https://tracker.debian.org/pkg/eboard,https://screenshots.debian.net/package/eboard,0.0,frontend for chess games
 efp,1.6-1,main,Escape from Pong NES game,"Escape from Pong NES game,,
 Escape from Pong is a very small NES game which introduces the concept of playing Pong from the ball's point of view. Your mission is to escape from 13 difficult levels, despite the paddle trying to beat you at every turn.,,
 ,,
@@ -697,7 +697,7 @@ Empire is a console game simulation of a full-scale war between two emperors, th
 ,,
 The world on which the game takes place is a square rectangle containing cities, land and water. Cities are used to build armies, planes, and ships which can move across the world destroying enemy pieces, exploring, and capturing more cities.,,
 ,,
-The classic game from the 1980s uses text mode graphical output, drawing your units, cities and the world in color. Commands are issued using the keyboard.","implemented-in::c, role::program, uitoolkit::ncurses, use::gameplaying",http://www.catb.org/~esr/vms-empire/,strategy,commandline,https://tracker.debian.org/pkg/empire,https://screenshots.debian.net/package/empire,,nan
+The classic game from the 1980s uses text mode graphical output, drawing your units, cities and the world in color. Commands are issued using the keyboard.","implemented-in::c, role::program, uitoolkit::ncurses, use::gameplaying",http://www.catb.org/~esr/vms-empire/,strategy,commandline,https://tracker.debian.org/pkg/empire,https://screenshots.debian.net/package/empire,1.0,console strategy game
 empire-lafe,1.1-1+b4,main,Fast line-mode Empire client,"Fast line-mode Empire client,,
 Lafe is an empire client optimized for high latency links.  You can type, edit, and send several commands before the server replies with output from the first command.  This allows you to make better use of the existing bandwidth than most other clients.","network::client, role::program, uitoolkit::ncurses, use::gameplaying",,strategy,,https://tracker.debian.org/pkg/empire-lafe,https://screenshots.debian.net/package/empire-lafe,0.0,addon
 endless-sky,0.9.8-1+b1,main,space exploration and combat game,"space exploration and combat game,,
@@ -857,7 +857,7 @@ This package contains the example games that accompany FLTK. Specifically, it co
 * flcheckers: classic board game, also known as draughts;,,
 * flsudoku:   Sudoku puzzle (place numbers in a grid).,,
 ,,
-The Fast Light Toolkit (FLTK) is a cross-platform graphical user interface toolkit originally based on libForms.","implemented-in::c++, role::program, uitoolkit::fltk, use::gameplaying, x11::application",https://www.fltk.org/,tetris,graphical,https://tracker.debian.org/pkg/fltk1.1-games,https://screenshots.debian.net/package/fltk1.1-games,,nan
+The Fast Light Toolkit (FLTK) is a cross-platform graphical user interface toolkit originally based on libForms.","implemented-in::c++, role::program, uitoolkit::fltk, use::gameplaying, x11::application",https://www.fltk.org/,tetris,graphical,https://tracker.debian.org/pkg/fltk1.1-games,https://screenshots.debian.net/package/fltk1.1-games,0.0,collection
 fltk1.3-games,1.3.4-9,main,"Fast Light Toolkit - example games: checkers, sudoku","Fast Light Toolkit - example games: checkers, sudoku,,
 This package contains the example games that accompany FLTK. Specifically, it contains the following two programs:,,
 * flblocks:   clear groups of adjacent blocks before they fill the screen;,,
@@ -1361,7 +1361,7 @@ Salliere is a scoring program for duplicate bridge.  It will take a file of pair
 ,,
 This package contains the GUI frontend for salliere.","implemented-in::java, role::program, uitoolkit::TODO, use::gameplaying, x11::application",http://www.matthew.ath.cx/projects/salliere/,card,graphical,https://tracker.debian.org/pkg/gsalliere,https://screenshots.debian.net/package/gsalliere,,nan
 gtans,1.99.0-2+b1,main,Tangram (puzzle) game using GTK+,"Tangram (puzzle) game using GTK+,,
-The Tangram is a Chinese puzzle where the player has to arrange a set of pieces to match a given shape. All the pieces must be used and should not be laid on top of one another. The pieces are five triangles, a square and a parallelogram. gtans contains more than 380 figures to play with. It uses the mouse to control pieces. gtans is highly customizable using the interface.","field::TODO, implemented-in::c, role::program, uitoolkit::gtk, use::gameplaying, use::learning, x11::application",http://gtans.sourceforge.net/,puzzle,graphical,https://tracker.debian.org/pkg/gtans,https://screenshots.debian.net/package/gtans,,nan
+The Tangram is a Chinese puzzle where the player has to arrange a set of pieces to match a given shape. All the pieces must be used and should not be laid on top of one another. The pieces are five triangles, a square and a parallelogram. gtans contains more than 380 figures to play with. It uses the mouse to control pieces. gtans is highly customizable using the interface.","field::TODO, implemented-in::c, role::program, uitoolkit::gtk, use::gameplaying, use::learning, x11::application",http://gtans.sourceforge.net/,puzzle,graphical,https://tracker.debian.org/pkg/gtans,https://screenshots.debian.net/package/gtans,3.0,tangram game
 gtkatlantic,0.6.2-2,main,Game like Monopoly,"Game like Monopoly,,
 GtkAtlantic is a game, like Monopoly™. This is a network client that works with the monopd server. You will either have to install monopd or connect to an existing internet server to play the game.","implemented-in::c, network::client, role::program, uitoolkit::gtk, use::gameplaying, x11::application",http://gtkatlantic.gradator.net/,board,graphical,https://tracker.debian.org/pkg/gtkatlantic,https://screenshots.debian.net/package/gtkatlantic,,nan
 gtkballs,3.1.5-11+b1,main,simple logic game,"simple logic game,,
@@ -2278,7 +2278,7 @@ While not necessary, it automates the first time setup and configuration of Open
 openpref,0.1.3-2+b1,main,card game against two virtual players,"card game against two virtual players,,
 OpenPref is open source implementation of European trick-taking game Preferans against two virtual players. Two alternative AI algorithms are available.","role::program, uitoolkit::qt, use::gameplaying, x11::application",http://sourceforge.net/projects/openpref/,card,graphical,https://tracker.debian.org/pkg/openpref,https://screenshots.debian.net/package/openpref,,nan
 openssn,1.4-3,main,modern submarine tactical simulator,"modern submarine tactical simulator,,
-OpenSSN is a submarine simulation (subsim) which tries to emulate the behaviour of modern submarines. The player is placed in command of a submarine and is able to move about in a deep ocean environment.",uitoolkit::sdl,https://openssn.sourceforge.net/,,,https://tracker.debian.org/pkg/openssn,https://screenshots.debian.net/package/openssn,,nan
+OpenSSN is a submarine simulation (subsim) which tries to emulate the behaviour of modern submarines. The player is placed in command of a submarine and is able to move about in a deep ocean environment.",uitoolkit::sdl,https://openssn.sourceforge.net/,,,https://tracker.debian.org/pkg/openssn,https://screenshots.debian.net/package/openssn,4.0,submarine simulation
 openttd,1.8.0-2,main,reimplementation of Transport Tycoon Deluxe with enhancements,"reimplementation of Transport Tycoon Deluxe with enhancements,,
 OpenTTD is a reimplementation of the Microprose game ""Transport Tycoon Deluxe"" with lots of new features and enhancements.,,
 ,,
@@ -2696,7 +2696,7 @@ This package contains no data files: use `game-data-packager' to generate a suit
 rrootage,0.23a-12+b1,main,arcade-style space shooting game,"arcade-style space shooting game,,
 rRootage is an arcade-style vertical shooting game, with music to match. Avoid the barrage of bullets and destroy the enemy's battle ship with your laser. rRootage has 40 levels, each playable in four different modes.,,
 ,,
-rRootage was created by Kenta Cho.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://rrootage.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/rrootage,https://screenshots.debian.net/package/rrootage,,nan
+rRootage was created by Kenta Cho.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://rrootage.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/rrootage,https://screenshots.debian.net/package/rrootage,3.0,ugly graphics
 rtcw,1.51.b+dfsg1-3,contrib,game engine for Return to Castle Wolfenstein,"game engine for Return to Castle Wolfenstein,,
 Return to Castle Wolfenstein is a military- and occult-themed first-person shooter game in a Second World War setting, originally released in 2001. It is a sequel to Wolfenstein 3D, which is also available for Debian (in the wolf4sdl package).,,
 ,,
@@ -3054,7 +3054,7 @@ Tumiki Fighters is another gem among many by Kenta Cho.","implemented-in::TODO, 
 tuxfootball,0.3.1-6,main,great 2D soccer (sometimes called football) game,"great 2D soccer (sometimes called football) game,,
 It's bringing old style gameplay from DOS times back to the desktop with up to date graphics! Its gameplay is similar to old classics such as Amco's Kick Off and Sensible Software's Sensible Soccer.,,
 ,,
-The gameplay is designed to be quick, responsive and fun. You are always in control of the player closest to the ball. The ball is controlled via two different kick buttons - one for pass, and one for shoot. Aftertouch can be applied to shots by quickly pressing and holding the direction you want the ball to bend towards. Pushing in the opposite direction to what you kicked the ball makes it raise into the air, pushing in the same direction as the ball makes it dip towards the ground.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://tuxfootball.sourceforge.net/,sport,graphical,https://tracker.debian.org/pkg/tuxfootball,https://screenshots.debian.net/package/tuxfootball,,nan
+The gameplay is designed to be quick, responsive and fun. You are always in control of the player closest to the ball. The ball is controlled via two different kick buttons - one for pass, and one for shoot. Aftertouch can be applied to shots by quickly pressing and holding the direction you want the ball to bend towards. Pushing in the opposite direction to what you kicked the ball makes it raise into the air, pushing in the same direction as the ball makes it dip towards the ground.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://tuxfootball.sourceforge.net/,sport,graphical,https://tracker.debian.org/pkg/tuxfootball,https://screenshots.debian.net/package/tuxfootball,3.0,retro football game
 tuxmath,2.0.3-5,main,math game for kids with Tux,"math game for kids with Tux,,
 ""Tux, of Math Command"" (""TuxMath,"" for short) is an educational arcade game starring Tux, the Linux mascot! Based on the classic arcade game ""Missile Command,"" Tux must defend his cities. In this case, though, he must do it by solving math problems.","field::mathematics, implemented-in::c, junior::arcade, role::program, uitoolkit::sdl, use::gameplaying, use::learning, x11::application",https://github.com/tux4kids/,arcade,graphical,https://tracker.debian.org/pkg/tuxmath,https://screenshots.debian.net/package/tuxmath,,nan
 tuxpuck,0.8.2-8,main,air hockey game for single players,"air hockey game for single players,,
