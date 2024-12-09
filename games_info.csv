@@ -99,7 +99,7 @@ Armagetron Advanced is a 3D game based on the light cycle racing in the movie ""
 ,,
 This version of Armagetron Advanced can only be used as a network game server. It does not have graphical output and can be controlled via the text console.,,
 ,,
-The normal Armagetron Advanced used for playing is also capable to serve games, but will require X to display its graphics, will provide a player and is therefore unsuited for permanent game servers.","implemented-in::c++, network::server, role::program, use::gameplaying, x11::application",https://www.armagetronad.org/,arcade,graphical,https://tracker.debian.org/pkg/armagetronad-dedicated,https://screenshots.debian.net/package/armagetronad-dedicated,,nan
+The normal Armagetron Advanced used for playing is also capable to serve games, but will require X to display its graphics, will provide a player and is therefore unsuited for permanent game servers.","implemented-in::c++, network::server, role::program, use::gameplaying, x11::application",https://www.armagetronad.org/,arcade,graphical,https://tracker.debian.org/pkg/armagetronad-dedicated,https://screenshots.debian.net/package/armagetronad-dedicated,0.0,addon
 asc,2.6.1.0-5+b1,main,turn-based strategy game,"turn-based strategy game,,
 Advanced Strategic Command is a free strategy game in the tradition of Battle Isle 2/3. The game is turn-based and can be played against human or computer.","implemented-in::c++, network::client, role::program, uitoolkit::ncurses, uitoolkit::sdl, use::gameplaying, x11::application",http://www.asc-hq.org,strategy,graphical,https://tracker.debian.org/pkg/asc,https://screenshots.debian.net/package/asc,,nan
 asciijump,1.0.2~beta-10,main,Small and funny ASCII-art game about ski jumping,"Small and funny ASCII-art game about ski jumping,,
@@ -281,7 +281,7 @@ It includes these programs: adventure, arithmetic, atc, backgammon, battlestar, 
 bsdgames-nonfree,2.17-8,non-free,"rogue, the classic dungeon exploration game","rogue, the classic dungeon exploration game,,
 This is a text-based game common on (traditional) BSD systems.  It may not be distributed freely, so it had to be broken off from the main bsdgames package and placed in non-free.,,
 ,,
-This package now contains only rogue, the classic dungeon exploration game.","implemented-in::c, role::program, suite::bsd, uitoolkit::ncurses, use::gameplaying",,rpg,commandline,https://tracker.debian.org/pkg/bsdgames-nonfree,https://screenshots.debian.net/package/bsdgames-nonfree,,nan
+This package now contains only rogue, the classic dungeon exploration game.","implemented-in::c, role::program, suite::bsd, uitoolkit::ncurses, use::gameplaying",,rpg,commandline,https://tracker.debian.org/pkg/bsdgames-nonfree,https://screenshots.debian.net/package/bsdgames-nonfree,0.0,addon
 btanks,0.9.8083-8,main,fast 2D tank arcade game with multiplayer and split-screen modes,"fast 2D tank arcade game with multiplayer and split-screen modes,,
 Battle Tanks is a funny battle on your desk, where you can choose one of three vehicles and eliminate your enemy using the whole arsenal of weapons. It has original cartoon-like graphics and cool music, is fun and dynamic and has death-match and cooperative network modes.","implemented-in::c++, network::client, network::server, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://btanks.sourceforge.net,arcade,graphical,https://tracker.debian.org/pkg/btanks,https://screenshots.debian.net/package/btanks,,nan
 bubbros,1.6.2-1,main,multiplayer clone of the famous Bubble Bobble game,,,,,,https://tracker.debian.org/pkg/bubbros,https://screenshots.debian.net/package/bubbros,,nan
@@ -407,7 +407,7 @@ Cowsay (or cowthink) will turn text into happy ASCII cows, with speech (or thoug
 cowsay-off,3.03+dfsg2-6,main,configurable talking cow (offensive cows),"configurable talking cow (offensive cows),,
 Cowsay (or cowthink) will turn text into happy ASCII cows, with speech (or thought) balloons. If you don't like cows, ASCII art is available to replace it with some other creatures (Tux, the BSD daemon, dragons, and a plethora of animals, from a turkey to an elephant in a snake).,,
 ,,
-This package contains cows which some may consider to be offensive. Please do not install this package if you or your users are easily offended.",,https://web.archive.org/web/20120527202447/http://www.nog.net/~tony/warez/cowsay.shtml,,,https://tracker.debian.org/pkg/cowsay-off,https://screenshots.debian.net/package/cowsay-off,,nan
+This package contains cows which some may consider to be offensive. Please do not install this package if you or your users are easily offended.",,https://web.archive.org/web/20120527202447/http://www.nog.net/~tony/warez/cowsay.shtml,,,https://tracker.debian.org/pkg/cowsay-off,https://screenshots.debian.net/package/cowsay-off,0.0,addon
 crack-attack,1.1.14-9.1+b2,main,multiplayer OpenGL puzzle game like Tetris Attack,"multiplayer OpenGL puzzle game like ""Tetris Attack"",,
 Crack Attack is an OpenGL puzzle game similar to the Super Nintendo game ""Tetris Attack"".  Slowly, your stack of colored blocks grows from the bottom, and you've got to make sure it never reaches the top. If it does, you lose. To eliminate blocks from the stack, line up at least three of one color, horizontally or vertically. Once you do, those blocks disappear, and put off slightly your inevitable demise.,,
 ,,
@@ -419,11 +419,11 @@ Crafty is the strong chess program played on ICC. It uses all of the search algo
 crafty-bitmaps,1.0-1,contrib,bitmap images for crafty chess game annotation mode,"bitmap images for crafty chess game annotation mode,,
 crafty is able to annotate PGN (Portable Game Notation) format chess games. This annotaion mode produces output in HTML-format and needs graphics to be user viewable. This package provides these graphics.",,,,,https://tracker.debian.org/pkg/crafty-bitmaps,https://screenshots.debian.net/package/crafty-bitmaps,0.0,not a lot of info
 crafty-books-medium,1.0.debian1-2,contrib,Medium size opening books for the crafty chess engine,"Medium size opening books for the crafty chess engine,,
-Opening books that crafty use to evaluate the position during the game. This is the medium version, occupying 4MB and containing +7500 games computed until the 60th ply.","role::app-data, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/crafty-books-medium,https://screenshots.debian.net/package/crafty-books-medium,,nan
+Opening books that crafty use to evaluate the position during the game. This is the medium version, occupying 4MB and containing +7500 games computed until the 60th ply.","role::app-data, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/crafty-books-medium,https://screenshots.debian.net/package/crafty-books-medium,0.0,addon
 crafty-books-medtosmall,1.0.debian1-2,contrib,Medium-to-small size opening books for crafty chess engine,"Medium-to-small size opening books for crafty chess engine,,
-Opening books that crafty use to evaluate the position during the game. This is the medium-to-small version, occupying 4MB and containing +7500 games computed until the 60th ply.","role::app-data, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/crafty-books-medtosmall,https://screenshots.debian.net/package/crafty-books-medtosmall,,nan
+Opening books that crafty use to evaluate the position during the game. This is the medium-to-small version, occupying 4MB and containing +7500 games computed until the 60th ply.","role::app-data, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/crafty-books-medtosmall,https://screenshots.debian.net/package/crafty-books-medtosmall,0.0,addon
 crafty-books-small,1.0.debian1-2,contrib,Small-size opening books for crafty chess engine,"Small-size opening books for crafty chess engine,,
-Opening books that crafty use to evaluate the position during the game. This is the small version, occupying 1MB and containing +4500 games computed until the 60th ply.","role::app-data, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/crafty-books-small,https://screenshots.debian.net/package/crafty-books-small,,nan
+Opening books that crafty use to evaluate the position during the game. This is the small version, occupying 1MB and containing +4500 games computed until the 60th ply.","role::app-data, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/crafty-books-small,https://screenshots.debian.net/package/crafty-books-small,0.0,addon
 crawl,2:0.23.0-1,main,"Dungeon Crawl, a text-based roguelike game","Dungeon Crawl, a text-based roguelike game,,
 Crawl is a fun game in the grand tradition of games like Rogue, Hack, and Moria. Your objective is to travel deep into a subterranean cave complex and retrieve the Orb of Zot, which is guarded by many horrible and hideous creatures.,,
 ,,
@@ -435,7 +435,7 @@ Crawl is a fun game in the grand tradition of games like Rogue, Hack, and Moria.
 ,,
 This is the graphical (tiles) version.,,
 ,,
-This is the Stone Soup version of Dungeon Crawl.","implemented-in::c++, implemented-in::lua, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://crawl.develz.org/,rpg,graphical,https://tracker.debian.org/pkg/crawl-tiles,https://screenshots.debian.net/package/crawl-tiles,,nan
+This is the Stone Soup version of Dungeon Crawl.","implemented-in::c++, implemented-in::lua, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://crawl.develz.org/,rpg,graphical,https://tracker.debian.org/pkg/crawl-tiles,https://screenshots.debian.net/package/crawl-tiles,0.0,addon
 crimson,0.5.2-1.1+b1,main,hex-based tactical game,"hex-based tactical game,,
 Crimson Fields is a hex-based tactical war game in the tradition of Battle Isle (tm). Two players command their units on a map of hexagons, trying to accomplish mission objectives ranging from defending important locations to simply destroying all enemy forces. The game can either be played in 'hot seat' mode, via email, or against the computer. Tools are available to create custom maps and campaigns. You can also play the original Battle Isle maps if you have a copy of the game.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://crimson.seul.org/,strategy,graphical,https://tracker.debian.org/pkg/crimson,https://screenshots.debian.net/package/crimson,4.0,clone og a other old game
 crispy-doom,5.4-3,main,Limit-raising medium-resolution Doom engine based on Chocolate Doom,"Limit-raising medium-resolution Doom engine based on Chocolate Doom,,
@@ -466,7 +466,7 @@ Since csmash relies on OpenGL-compatible rendering, it is best experienced with 
 csmash-demosong,1.4+nmu1,main,Demo song for CannonSmash,"Demo song for CannonSmash,,
 This is the demo song for CannonSmash. If csmash detects the presence of this song during its startup, it will present you a demonstration of the game with a nice musical background.,,
 ,,
-Composed by Hideaki Tanabe","role::app-data, role::program, uitoolkit::gtk, uitoolkit::sdl, use::gameplaying, x11::application",http://cannonsmash.sourceforge.net/,arcade,"graphical, 3d",https://tracker.debian.org/pkg/csmash-demosong,https://screenshots.debian.net/package/csmash-demosong,,nan
+Composed by Hideaki Tanabe","role::app-data, role::program, uitoolkit::gtk, uitoolkit::sdl, use::gameplaying, x11::application",http://cannonsmash.sourceforge.net/,arcade,"graphical, 3d",https://tracker.debian.org/pkg/csmash-demosong,https://screenshots.debian.net/package/csmash-demosong,0.0,addon
 cube2,0.0.20130404+dfsg-1,main,3D first-person shooter game engine,"3D first-person shooter game engine,,
 Cube2 is a networked 3D first-person shooter game engine. It supports modern graphic effects and conveys a sense of fast-paced oldschool gameplay.,,
 ,,
@@ -484,8 +484,8 @@ Unlike  most  RTS,  you  are  not  controlling units, but focus on high-level st
 cutemaze,1.2.4-1,main,single player maze game,"single player maze game,,
 CuteMaze is a simple, top-down game in which mazes are randomly generated using one of a choice of several different algorithms. You move the character through the maze while hunting for targets (cheese, by default) - the game is won once all of these targets have been picked up.","role::program, uitoolkit::qt, x11::application",https://gottcode.org/cutemaze/,,graphical,https://tracker.debian.org/pkg/cutemaze,https://screenshots.debian.net/package/cutemaze,,nan
 cyphesis-cpp,0.6.2-3+b1,main,WorldForge game server,,,,,,https://tracker.debian.org/pkg/cyphesis-cpp,https://screenshots.debian.net/package/cyphesis-cpp,,nan
-cyphesis-cpp-clients,0.6.2-3+b1,main,WorldForge game server - clients to control the server,,,,,,https://tracker.debian.org/pkg/cyphesis-cpp-clients,https://screenshots.debian.net/package/cyphesis-cpp-clients,,nan
-cyphesis-cpp-mason,0.6.2-3,main,WorldForge game server - game data for Mason,,,,,,https://tracker.debian.org/pkg/cyphesis-cpp-mason,https://screenshots.debian.net/package/cyphesis-cpp-mason,,nan
+cyphesis-cpp-clients,0.6.2-3+b1,main,WorldForge game server - clients to control the server,,,,,,https://tracker.debian.org/pkg/cyphesis-cpp-clients,https://screenshots.debian.net/package/cyphesis-cpp-clients,0.0,addon
+cyphesis-cpp-mason,0.6.2-3,main,WorldForge game server - game data for Mason,,,,,,https://tracker.debian.org/pkg/cyphesis-cpp-mason,https://screenshots.debian.net/package/cyphesis-cpp-mason,0.0,addon
 cytadela,1.1.0-4,contrib,old-school first person shooter game,"old-school first person shooter game,,
 Cytadela is a single player game in which the player fights against computer-controlled (AI) enemies. The goal of the game is to find six bomb parts with which the Citadel has to be blown up.,,
 ,,
@@ -543,13 +543,13 @@ This package contains the shared library containing the game logic for the add-o
 ,,
 Please note that this package does not contain any game data, which is required to actually play the game.,,
 ,,
-The package game-data-packager can help you to package your copy of the game data. Please see README.Debian for details.",,https://dhewm3.org/,,,https://tracker.debian.org/pkg/dhewm3-d3xp,https://screenshots.debian.net/package/dhewm3-d3xp,,nan
+The package game-data-packager can help you to package your copy of the game data. Please see README.Debian for details.",,https://dhewm3.org/,,,https://tracker.debian.org/pkg/dhewm3-d3xp,https://screenshots.debian.net/package/dhewm3-d3xp,0.0,addon
 dhewm3-doom3,1.5.0+git20181221+dfsg-1,contrib,dhewm3's gamelibrary for the title DOOM³,"dhewm3's gamelibrary for the title DOOM³,,
 This package contains the shared library containing the game logic for DOOM³,,
 ,,
 Please note that this package does not contain any game data, which is required to actually play the game.,,
 ,,
-The package game-data-packager can help you to package your copy of the game data. Please see README.Debian for details.",,https://dhewm3.org/,,,https://tracker.debian.org/pkg/dhewm3-doom3,https://screenshots.debian.net/package/dhewm3-doom3,,nan
+The package game-data-packager can help you to package your copy of the game data. Please see README.Debian for details.",,https://dhewm3.org/,,,https://tracker.debian.org/pkg/dhewm3-doom3,https://screenshots.debian.net/package/dhewm3-doom3,0.0,addon
 dizzy,0.3-3,main,Graphics demo that makes you dizzy using rotating textures,"Graphics demo that makes you dizzy using rotating textures,,
 dizzy is a graphics demo that rotates planes of patterns on a colored background to make you dizzy. Textures can be cross-faded and there is a mode that automatically changes textures, allowing dizzy to be run as a screensaver.","role::program, works-with::people",https://penma.de/code/dizzy,,,https://tracker.debian.org/pkg/dizzy,https://screenshots.debian.net/package/dizzy,,nan
 dodgindiamond2,0.2.2-3,main,Little shoot-'em-up arcade game for one or two players,"Little shoot-'em-up arcade game for one or two players,,
@@ -601,7 +601,7 @@ This is the French version of Drascula: The Vampire Strikes Back. It features su
 ,,
 Please install the drascula-music package to enjoy the background music of the game. There are furthermore additional language packages available with subtitles in Spanish, German and Italian.,,
 ,,
-Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-french,https://screenshots.debian.net/package/drascula-french,,nan
+Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-french,https://screenshots.debian.net/package/drascula-french,0.0,addon
 drascula-german,1.0+ds3-1,main,classic 2D point and click adventure game -- German version,"classic 2D point and click adventure game -- German version,,
 Drascula: The Vampire Strikes Back is a classic humorous 2D point and click adventure game, first released by Alcachofa Soft S.L. in 1996.,,
 ,,
@@ -615,7 +615,7 @@ This is the German version of Drascula: The Vampire Strikes Back. It features su
 ,,
 Please install the drascula-music package to enjoy the background music of the game. There are furthermore additional language packages available with subtitles in Spanish, French and Italian.,,
 ,,
-Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-german,https://screenshots.debian.net/package/drascula-german,,nan
+Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-german,https://screenshots.debian.net/package/drascula-german,0.0,addon
 drascula-italian,1.0+ds3-1,main,classic 2D point and click adventure game -- Italian version,"classic 2D point and click adventure game -- Italian version,,
 Drascula: The Vampire Strikes Back is a classic humorous 2D point and click adventure game, first released by Alcachofa Soft S.L. in 1996.,,
 ,,
@@ -629,7 +629,7 @@ This is the Italian version of Drascula: The Vampire Strikes Back. It features s
 ,,
 Please install the drascula-music package to enjoy the background music of the game. There are furthermore additional language packages available with subtitles in Spanish, German and French.,,
 ,,
-Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-italian,https://screenshots.debian.net/package/drascula-italian,,nan
+Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-italian,https://screenshots.debian.net/package/drascula-italian,0.0,addon
 drascula-spanish,1.0+ds3-1,main,classic 2D point and click adventure game -- Spanish version,"classic 2D point and click adventure game -- Spanish version,,
 Drascula: The Vampire Strikes Back is a classic humorous 2D point and click adventure game, first released by Alcachofa Soft S.L. in 1996.,,
 ,,
@@ -643,7 +643,7 @@ This is the Spanish version of Drascula: The Vampire Strikes Back. It also featu
 ,,
 Please install the drascula-music package to enjoy the background music of the game. There are furthermore additional language packages available with subtitles in German, French and Italian.,,
 ,,
-Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-spanish,https://screenshots.debian.net/package/drascula-spanish,,nan
+Note that this package only contains game-data. The game engine is provided by ScummVM.","hardware::input:mouse, role::app-data, use::gameplaying",https://www.scummvm.org,adventure,,https://tracker.debian.org/pkg/drascula-spanish,https://screenshots.debian.net/package/drascula-spanish,0.0,addon
 dreamchess,0.2.1-RC2-3,main,3D chess game,"3D chess game,,
 DreamChess features 3D OpenGL graphics and provides various chess board sets, ranging from classic wooden to flat.,,
 ,,
@@ -699,7 +699,7 @@ The world on which the game takes place is a square rectangle containing cities,
 ,,
 The classic game from the 1980s uses text mode graphical output, drawing your units, cities and the world in color. Commands are issued using the keyboard.","implemented-in::c, role::program, uitoolkit::ncurses, use::gameplaying",http://www.catb.org/~esr/vms-empire/,strategy,commandline,https://tracker.debian.org/pkg/empire,https://screenshots.debian.net/package/empire,,nan
 empire-lafe,1.1-1+b4,main,Fast line-mode Empire client,"Fast line-mode Empire client,,
-Lafe is an empire client optimized for high latency links.  You can type, edit, and send several commands before the server replies with output from the first command.  This allows you to make better use of the existing bandwidth than most other clients.","network::client, role::program, uitoolkit::ncurses, use::gameplaying",,strategy,,https://tracker.debian.org/pkg/empire-lafe,https://screenshots.debian.net/package/empire-lafe,,nan
+Lafe is an empire client optimized for high latency links.  You can type, edit, and send several commands before the server replies with output from the first command.  This allows you to make better use of the existing bandwidth than most other clients.","network::client, role::program, uitoolkit::ncurses, use::gameplaying",,strategy,,https://tracker.debian.org/pkg/empire-lafe,https://screenshots.debian.net/package/empire-lafe,0.0,addon
 endless-sky,0.9.8-1+b1,main,space exploration and combat game,"space exploration and combat game,,
 Endless sky is a 2D space exploration game with action, strategy, and role playing elements.,,
 ,,
@@ -709,7 +709,7 @@ Endless Sky requires OpenGL 3.0 or higher.","hardware::opengl, role::program, ui
 endless-sky-high-dpi,0.9.8-1,main,space exploration and combat game,"space exploration and combat game,,
 Endless sky is a 2D space exploration game with action, strategy, and role playing elements.,,
 ,,
-This package contains high-resolution graphics for Endless Sky. These images will only be used if you either have a high-DPI monitor, or have set the game's zoom level higher than 100%.",,https://endless-sky.github.io,,,https://tracker.debian.org/pkg/endless-sky-high-dpi,https://screenshots.debian.net/package/endless-sky-high-dpi,,nan
+This package contains high-resolution graphics for Endless Sky. These images will only be used if you either have a high-DPI monitor, or have set the game's zoom level higher than 100%.",,https://endless-sky.github.io,,,https://tracker.debian.org/pkg/endless-sky-high-dpi,https://screenshots.debian.net/package/endless-sky-high-dpi,0.0,addon
 enemylines3,1.25-1,main,semi-abstract first person 3d-shooter game,"semi-abstract first person 3d-shooter game,,
 Enemylines 3 is a single-player game. You have to shoot evil robots before they get too close, you can use your jetpack to escape. The robots can't jump but they tear down walls.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://proj.phk.at/el/3/,fps,graphical,https://tracker.debian.org/pkg/enemylines3,https://screenshots.debian.net/package/enemylines3,,nan
 enemylines7,0.6-4+b2,main,first person 3d-shooter game,"first person 3d-shooter game,,
@@ -782,7 +782,7 @@ wuc          - Wody's Usecode Compiler.,,
 ,,
 These are all works in progress.,,
 ,,
-A GIMP plugin is provided, so that if you have the GIMP installed you can edit and create game graphics with it.","role::program, scope::utility, uitoolkit::gtk, use::editing, x11::application",http://exult.sourceforge.net/,rpg,graphical,https://tracker.debian.org/pkg/exult-studio,https://screenshots.debian.net/package/exult-studio,,nan
+A GIMP plugin is provided, so that if you have the GIMP installed you can edit and create game graphics with it.","role::program, scope::utility, uitoolkit::gtk, use::editing, x11::application",http://exult.sourceforge.net/,rpg,graphical,https://tracker.debian.org/pkg/exult-studio,https://screenshots.debian.net/package/exult-studio,0.0,addon
 ezquake,2.2+git20150324-1,main,modern QuakeWorld client,"modern QuakeWorld client,,
 ezQuake is a modern QuakeWorld engine.  It adds many useful features like modern graphics, QuakeTV support, multi-monitor support, a built-in server browser, and many features serving the nedes of competitive Quake gamers.,,
 ,,
@@ -833,11 +833,11 @@ Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to ha
 ,,
 Flare uses simple file formats (INI style config files) for most of the game data, allowing anyone to easily modify game contents. Open formats are preferred (png, ogg). The game code is C++.,,
 ,,
-This package contains the game engine and you will need a game package (such as flare or polymorph) to play.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://flarerpg.org/,rpg,graphical,https://tracker.debian.org/pkg/flare-engine,https://screenshots.debian.net/package/flare-engine,,nan
+This package contains the game engine and you will need a game package (such as flare or polymorph) to play.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://flarerpg.org/,rpg,graphical,https://tracker.debian.org/pkg/flare-engine,https://screenshots.debian.net/package/flare-engine,0.0,addon
 flare-game,1.09.01-1,main,fantasy single-player 2D action role-playing game,"fantasy single-player 2D action role-playing game,,
 Flare (Free Libre Action Roleplaying Engine) is a simple game engine built to handle a very specific kind of game: single-player 2D action RPGs. Flare is not a reimplementation of an existing game or engine. It is a tribute to and exploration of the action RPG genre.,,
 ,,
-Rather than building a very abstract, robust game engine, the goal of this project is to build several real games and harvest an engine from the common, reusable code. This first game, in progress, is a fantasy dungeon crawl.","role::app-data, use::gameplaying",http://flarerpg.org/,rpg,,https://tracker.debian.org/pkg/flare-game,https://screenshots.debian.net/package/flare-game,,nan
+Rather than building a very abstract, robust game engine, the goal of this project is to build several real games and harvest an engine from the common, reusable code. This first game, in progress, is a fantasy dungeon crawl.","role::app-data, use::gameplaying",http://flarerpg.org/,rpg,,https://tracker.debian.org/pkg/flare-game,https://screenshots.debian.net/package/flare-game,0.0,addon
 flight-of-the-amazon-queen,1.0.0-8,main,classic 2D point and click fantasy adventure game,"classic 2D point and click fantasy adventure game,,
 Flight of the Amazon Queen is a 2D point-and-click adventure game set in the 1940s, originally published for DOS and the Amiga.,,
 ,,
@@ -848,7 +848,7 @@ flightgear,1:2018.3.2+dfsg-2+b1,main,Flight Gear Flight Simulator,"Flight Gear F
 FlightGear Flight Simulator (often shortened to FlightGear or FGFS) is a sophisticated free, completely open-source flight simulator framework, created by volunteers.,,
 ,,
 This package contains the runtime binaries.","field::aviation, hardware::opengl, role::program, scope::application, uitoolkit::qt, uitoolkit::xlib, use::gameplaying, x11::application",https://home.flightgear.org/,simulation,"graphical, 3d",https://tracker.debian.org/pkg/flightgear,https://screenshots.debian.net/package/flightgear,,nan
-flightgear-phi,2018.1.1+dfsg1-1.1,main,FlightGear Flight Simulator -- Phi webfrontend,,,,,,https://tracker.debian.org/pkg/flightgear-phi,https://screenshots.debian.net/package/flightgear-phi,,nan
+flightgear-phi,2018.1.1+dfsg1-1.1,main,FlightGear Flight Simulator -- Phi webfrontend,,,,,,https://tracker.debian.org/pkg/flightgear-phi,https://screenshots.debian.net/package/flightgear-phi,0.0,addon
 flobopuyo,0.20-5+b2,main,Clone of the PuyoPuyo game,"Clone of the PuyoPuyo game,,
 The goal of FloboPuyo is to make groups of four or more Puyos (coloured bubbles) to make them explode and send bad ghost Puyos to your opponent. You win the game if your opponent reaches the top of the board. You can play against computer or another human.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://www.fovea.cc/flobopuyo-en,tetris,graphical,https://tracker.debian.org/pkg/flobopuyo,https://screenshots.debian.net/package/flobopuyo,,nan
 fltk1.1-games,1.1.10-26,main,"Fast Light Toolkit - example games: checkers, sudoku","Fast Light Toolkit - example games: checkers, sudoku,,
@@ -895,73 +895,73 @@ You'll need the fortune-mod package to display the cookies.","role::data, role::
 fortunes-bg,1.3,main,Bulgarian data files for fortune,"Bulgarian data files for fortune,,
 Collection of about 125 Bulgarian proverbs and 150 other proverbs, 150 thoughts with Bulgarian authors and 150 other thoughts, some ancient Bulgarian texts and other sentences.,,
 ,,
-This package can be a replacement for the fortunes package to let fortune speak Bulgarian.","culture::bulgarian, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-bg,https://screenshots.debian.net/package/fortunes-bg,,nan
+This package can be a replacement for the fortunes package to let fortune speak Bulgarian.","culture::bulgarian, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-bg,https://screenshots.debian.net/package/fortunes-bg,0.0,addon
 fortunes-bofh-excuses,1.2-2,main,BOFH excuses for fortune,"BOFH excuses for fortune,,
-fortunes-bofh-excuses is a collection of excuses which you can use as a BOFH when something goes wrong.  Some examples are: 'Electromagnetic energy loss', 'disks spinning backwards - toggle the hemisphere jumper.'","role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-bofh-excuses,https://screenshots.debian.net/package/fortunes-bofh-excuses,,nan
+fortunes-bofh-excuses is a collection of excuses which you can use as a BOFH when something goes wrong.  Some examples are: 'Electromagnetic energy loss', 'disks spinning backwards - toggle the hemisphere jumper.'","role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-bofh-excuses,https://screenshots.debian.net/package/fortunes-bofh-excuses,0.0,addon
 fortunes-br,20160820,main,Data files with fortune cookies in Portuguese,"Data files with fortune cookies in Portuguese,,
-A collection of several fortune cookies for Portuguese speakers, gathered from various sources, ranging from proverbs to quotations from literature classics.","culture::brazilian, role::data, role::program, use::gameplaying, works-with::text",https://github.com/leitao/fortunes-br,toys,commandline,https://tracker.debian.org/pkg/fortunes-br,https://screenshots.debian.net/package/fortunes-br,,nan
+A collection of several fortune cookies for Portuguese speakers, gathered from various sources, ranging from proverbs to quotations from literature classics.","culture::brazilian, role::data, role::program, use::gameplaying, works-with::text",https://github.com/leitao/fortunes-br,toys,commandline,https://tracker.debian.org/pkg/fortunes-br,https://screenshots.debian.net/package/fortunes-br,0.0,addon
 fortunes-cs,2.0.9-1,main,Czech and Slovak data files for fortune,"Czech and Slovak data files for fortune,,
-Collection of about 7400 fortunes in Czech and Slovak. This package can be a replacement for or an addition to the fortunes package to let fortune speak Czech and/or Slovak.","culture::czech, culture::slovak, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-cs,https://screenshots.debian.net/package/fortunes-cs,,nan
+Collection of about 7400 fortunes in Czech and Slovak. This package can be a replacement for or an addition to the fortunes package to let fortune speak Czech and/or Slovak.","culture::czech, culture::slovak, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-cs,https://screenshots.debian.net/package/fortunes-cs,0.0,addon
 fortunes-de,0.34-1,main,German data files for fortune,"German data files for fortune,,
-Collection of more than 17000 German cookies. This package can be a replacement for or an addition to the fortunes package to let fortune speak German.","culture::german, role::data, role::program, use::gameplaying, works-with::text",https://salsa.debian.org/debian/fortunes-de,toys,commandline,https://tracker.debian.org/pkg/fortunes-de,https://screenshots.debian.net/package/fortunes-de,,nan
+Collection of more than 17000 German cookies. This package can be a replacement for or an addition to the fortunes package to let fortune speak German.","culture::german, role::data, role::program, use::gameplaying, works-with::text",https://salsa.debian.org/debian/fortunes-de,toys,commandline,https://tracker.debian.org/pkg/fortunes-de,https://screenshots.debian.net/package/fortunes-de,0.0,addon
 fortunes-debian-hints,2.01.2,main,Debian Hints for fortune,"Debian Hints for fortune,,
-This package provides a set of hints and tips on using Debian, in a fortune database format. New Debian users (or administrators) may find its advice particularly sage or helpful, and even veteran Debianites might find some new tidbits.","role::documentation, role::program, suite::debian, use::gameplaying, works-with::text",https://wiki.debian.org/FortunesDebianHints,toys,commandline,https://tracker.debian.org/pkg/fortunes-debian-hints,https://screenshots.debian.net/package/fortunes-debian-hints,,nan
+This package provides a set of hints and tips on using Debian, in a fortune database format. New Debian users (or administrators) may find its advice particularly sage or helpful, and even veteran Debianites might find some new tidbits.","role::documentation, role::program, suite::debian, use::gameplaying, works-with::text",https://wiki.debian.org/FortunesDebianHints,toys,commandline,https://tracker.debian.org/pkg/fortunes-debian-hints,https://screenshots.debian.net/package/fortunes-debian-hints,0.0,addon
 fortunes-eo,20020729b-1,main,Collection of esperanto fortunes.,"Collection of esperanto fortunes.,,
 Datumbazo kun esperantlingvaj mesaĝoj por la fortune programo. Enhavas mesaĝojn el Proverbaro Esperanta de Zamenhof, en UTF-8 kodo.,,
 ,,
-Database with esperanto fortune cookies. Contains messages from Proverbaro Esperanta by Zamenhof, in UTF-8 encoding.","culture::esperanto, role::data, role::program, use::gameplaying, works-with::text, works-with::unicode",,toys,,https://tracker.debian.org/pkg/fortunes-eo,https://screenshots.debian.net/package/fortunes-eo,,nan
+Database with esperanto fortune cookies. Contains messages from Proverbaro Esperanta by Zamenhof, in UTF-8 encoding.","culture::esperanto, role::data, role::program, use::gameplaying, works-with::text, works-with::unicode",,toys,,https://tracker.debian.org/pkg/fortunes-eo,https://screenshots.debian.net/package/fortunes-eo,0.0,addon
 fortunes-eo-ascii,20020729b-1,main,Collection of esperanto fortunes (ascii encoding).,"Collection of esperanto fortunes (ascii encoding).,,
 Datumbazo kun esperantlingvaj mesagxoj por la fortune programo. Enhavas mesagxojn el Proverbaro Esperanta de Zamenhof, en ASCII (post-x) kodo.,,
 ,,
-Database with esperanto fortune cookies. Contains messages from Proverbaro Esperanta by Zamenhof, in ASCII (post-x) encoding.","culture::esperanto, role::data, role::program, use::gameplaying, use::viewing, works-with::text",,toys,,https://tracker.debian.org/pkg/fortunes-eo-ascii,https://screenshots.debian.net/package/fortunes-eo-ascii,,nan
+Database with esperanto fortune cookies. Contains messages from Proverbaro Esperanta by Zamenhof, in ASCII (post-x) encoding.","culture::esperanto, role::data, role::program, use::gameplaying, use::viewing, works-with::text",,toys,,https://tracker.debian.org/pkg/fortunes-eo-ascii,https://screenshots.debian.net/package/fortunes-eo-ascii,0.0,addon
 fortunes-eo-iso3,20020729b-1,main,Collection of esperanto fortunes (ISO3 encoding).,"Collection of esperanto fortunes (ISO3 encoding).,,
 Datumbazo kun esperantlingvaj mesagxoj por la fortune programo. Enhavas mesagxojn el Proverbaro Esperanta de Zamenhof, en ISO-8859-3 kodo.,,
 ,,
-Database with esperanto fortune cookies. Contains messages from Proverbaro Esperanta by Zamenhof, in ISO-8859-3 encoding.","culture::esperanto, role::data, role::program, use::gameplaying, use::viewing, works-with::text",,toys,,https://tracker.debian.org/pkg/fortunes-eo-iso3,https://screenshots.debian.net/package/fortunes-eo-iso3,,nan
+Database with esperanto fortune cookies. Contains messages from Proverbaro Esperanta by Zamenhof, in ISO-8859-3 encoding.","culture::esperanto, role::data, role::program, use::gameplaying, use::viewing, works-with::text",,toys,,https://tracker.debian.org/pkg/fortunes-eo-iso3,https://screenshots.debian.net/package/fortunes-eo-iso3,0.0,addon
 fortunes-es,1.35,main,Spanish fortune database,"Spanish fortune database,,
-A collection of Spanish fortune cookies, taken from various sources including the 'chorrada' program (from FIDOnet) and the 'Frases y Proverbios' webpage.","culture::spanish, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-es,https://screenshots.debian.net/package/fortunes-es,,nan
+A collection of Spanish fortune cookies, taken from various sources including the 'chorrada' program (from FIDOnet) and the 'Frases y Proverbios' webpage.","culture::spanish, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-es,https://screenshots.debian.net/package/fortunes-es,0.0,addon
 fortunes-es-off,1.35,main,Spanish fortune cookies (Offensive section),"Spanish fortune cookies (Offensive section),,
 A collection of mostly offensive Spanish fortune cookies, from various sources.,,
 ,,
 DO NOT INSTALL this package unless you really want to read offensive fortunes. Package fortunes-es contains mainly non-offensive fortunes in Spanish.","culture::spanish, role::data, role::program, use::gameplaying, works-with::text",,toys,,https://tracker.debian.org/pkg/fortunes-es-off,https://screenshots.debian.net/package/fortunes-es-off,3.0,"fortune, in spanish and offensive, sounds interesting"
-fortunes-fr,0.65+nmu2,main,French fortunes cookies,,,,,,https://tracker.debian.org/pkg/fortunes-fr,https://screenshots.debian.net/package/fortunes-fr,,nan
+fortunes-fr,0.65+nmu2,main,French fortunes cookies,,,,,,https://tracker.debian.org/pkg/fortunes-fr,https://screenshots.debian.net/package/fortunes-fr,0.0,addon
 fortunes-ga,0.1,main,Irish (Gaelige) data files for fortune,"Irish (Gaelige) data files for fortune,,
-Collection of Irish proverbs, from Damien Lyons and the GAELIC-L mailing list. This package can be a replacement for or an addition to the fortunes package to let fortune speak Irish.","culture::irish, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-ga,https://screenshots.debian.net/package/fortunes-ga,,nan
+Collection of Irish proverbs, from Damien Lyons and the GAELIC-L mailing list. This package can be a replacement for or an addition to the fortunes package to let fortune speak Irish.","culture::irish, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-ga,https://screenshots.debian.net/package/fortunes-ga,0.0,addon
 fortunes-it,1.99-4,main,Data files containing Italian fortune cookies,"Data files containing Italian fortune cookies,,
 This package provides a collection of 'fortune cookies' in Italian, taken from:,,
 * The newsgroup it.hobby.umorismo,,
 * Andrea `Zuse` Balestrero's personal archive,,
 * Various tv transmissions, such as ""Mai dire Gol"" or ""Striscia la Notizia"",,
 * The book ""Jack Frusciante e` uscito dal gruppo"",,
-* Other various sources","culture::italian, role::data, role::program, use::gameplaying, works-with::text",https://codeberg.org/fortunes-it/fortunes-it,toys,commandline,https://tracker.debian.org/pkg/fortunes-it,https://screenshots.debian.net/package/fortunes-it,,nan
+* Other various sources","culture::italian, role::data, role::program, use::gameplaying, works-with::text",https://codeberg.org/fortunes-it/fortunes-it,toys,commandline,https://tracker.debian.org/pkg/fortunes-it,https://screenshots.debian.net/package/fortunes-it,0.0,addon
 fortunes-it-off,1.99-4,main,"Data files containing Italian fortune cookies, offensive section","Data files containing Italian fortune cookies, offensive section,,
 This package contains a set of 'fortune cookies' in Italian, separated from the fortunes-it package since someone may consider they to be offensive.,,
 ,,
-Please do not install this package if you or your users are easily offended.","culture::italian, role::data, role::program, use::gameplaying, works-with::text",https://codeberg.org/fortunes-it/fortunes-it,toys,commandline,https://tracker.debian.org/pkg/fortunes-it-off,https://screenshots.debian.net/package/fortunes-it-off,,nan
+Please do not install this package if you or your users are easily offended.","culture::italian, role::data, role::program, use::gameplaying, works-with::text",https://codeberg.org/fortunes-it/fortunes-it,toys,commandline,https://tracker.debian.org/pkg/fortunes-it-off,https://screenshots.debian.net/package/fortunes-it-off,0.0,addon
 fortunes-mario,0.21-1,main,Fortunes files from Mario,"Fortunes files from Mario,,
-A fortune database for Portuguese speakers, gathered from Mario Domenech Goulart. It is the result of collecting cookies for a long time to make a great database.","culture::brazilian, culture::portuguese, role::data, role::program, use::gameplaying, works-with::text",http://github.com/fike/fortunes-mario,toys,commandline,https://tracker.debian.org/pkg/fortunes-mario,https://screenshots.debian.net/package/fortunes-mario,,nan
+A fortune database for Portuguese speakers, gathered from Mario Domenech Goulart. It is the result of collecting cookies for a long time to make a great database.","culture::brazilian, culture::portuguese, role::data, role::program, use::gameplaying, works-with::text",http://github.com/fike/fortunes-mario,toys,commandline,https://tracker.debian.org/pkg/fortunes-mario,https://screenshots.debian.net/package/fortunes-mario,0.0,addon
 fortunes-min,1:1.99.1-7,main,Data files containing selected fortune cookies,"Data files containing selected fortune cookies,,
 The fortune program displays epigrams, known as fortune cookies, selected randomly from a selection of fortune files.,,
 ,,
 This package contains a small number of cookies for the bandwidth conscious.,,
 ,,
-You'll need the fortune-mod package to display the cookies.","role::data, role::program, use::gameplaying, works-with::text",https://github.com/shlomif/fortune-mod/,toys,commandline,https://tracker.debian.org/pkg/fortunes-min,https://screenshots.debian.net/package/fortunes-min,,nan
-fortunes-off,1:1.99.1-7,main,Data files containing offensive fortune cookies,,,,,,https://tracker.debian.org/pkg/fortunes-off,https://screenshots.debian.net/package/fortunes-off,,nan
+You'll need the fortune-mod package to display the cookies.","role::data, role::program, use::gameplaying, works-with::text",https://github.com/shlomif/fortune-mod/,toys,commandline,https://tracker.debian.org/pkg/fortunes-min,https://screenshots.debian.net/package/fortunes-min,0.0,addon
+fortunes-off,1:1.99.1-7,main,Data files containing offensive fortune cookies,,,,,,https://tracker.debian.org/pkg/fortunes-off,https://screenshots.debian.net/package/fortunes-off,0.0,addon
 fortunes-pl,0.0.20130525-2,main,Polish data files for fortune,"Polish data files for fortune,,
 A collection of fortune cookies in Polish.,,
 ,,
-This package can be replacement for or an addition to the fortunes package to let fortune speak Polish.","culture::polish, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-pl,https://screenshots.debian.net/package/fortunes-pl,,nan
+This package can be replacement for or an addition to the fortunes package to let fortune speak Polish.","culture::polish, role::data, role::program, use::gameplaying, works-with::text",,toys,commandline,https://tracker.debian.org/pkg/fortunes-pl,https://screenshots.debian.net/package/fortunes-pl,0.0,addon
 fortunes-ru,1.52-3,main,Russian data files for fortune,"Russian data files for fortune,,
 A collection of fortune cookies in Russian.,,
 ,,
-This package can be replacement for or an addition to the fortunes package to let fortune speak Russian.","culture::russian, role::app-data",http://jack.kiev.ua/fortune-mod-ru/,,,https://tracker.debian.org/pkg/fortunes-ru,https://screenshots.debian.net/package/fortunes-ru,,nan
+This package can be replacement for or an addition to the fortunes package to let fortune speak Russian.","culture::russian, role::app-data",http://jack.kiev.ua/fortune-mod-ru/,,,https://tracker.debian.org/pkg/fortunes-ru,https://screenshots.debian.net/package/fortunes-ru,0.0,addon
 fortunes-zh,2.95,main,Chinese Data files for fortune,"Chinese Data files for fortune,,
 This package contains the Chinese data files for fortune in UTF-8 encoding.,,
 ,,
 cookies included in this package:,,
 * tang300: 300 Tang Poems,,
 * song100: 100 Song Poems,,
-* chinese: Misc Chinese Collection",,,,,https://tracker.debian.org/pkg/fortunes-zh,https://screenshots.debian.net/package/fortunes-zh,,nan
+* chinese: Misc Chinese Collection",,,,,https://tracker.debian.org/pkg/fortunes-zh,https://screenshots.debian.net/package/fortunes-zh,0.0,addon
 four-in-a-row,1:3.28.0-2,main,Four in a Row game for GNOME,"Four in a Row game for GNOME,,
 The object of the game is to build a line of four of your marbles while trying to stop your opponent (human or computer) building a line of his or her own. A line can be horizontal, vertical or diagonal.",uitoolkit::gtk,https://wiki.gnome.org/Apps/Four-in-a-row,,,https://tracker.debian.org/pkg/four-in-a-row,https://screenshots.debian.net/package/four-in-a-row,,nan
 freealchemist,0.5-1,main,simpler figure block game,"simpler figure block game,,
@@ -979,23 +979,23 @@ This metapackage will install the recommended client to play Freeciv.","implemen
 freeciv-client-extras,2.6.0-2,main,Civilization turn based strategy game (miscellaneous extras),"Civilization turn based strategy game (miscellaneous extras),,
 Freeciv is a free clone of the turn based strategy game Civilization. In this game, each player becomes leader of a civilisation, fighting to obtain the ultimate goal: the extinction of all other civilisations.,,
 ,,
-This package includes Freeciv's modpack tool freeciv-mp-gtk3. It allows you to select and download custom rulesets and tilesets for the game.","implemented-in::c, role::program, uitoolkit::gtk, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-extras,https://screenshots.debian.net/package/freeciv-client-extras,,nan
+This package includes Freeciv's modpack tool freeciv-mp-gtk3. It allows you to select and download custom rulesets and tilesets for the game.","implemented-in::c, role::program, uitoolkit::gtk, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-extras,https://screenshots.debian.net/package/freeciv-client-extras,0.0,addon
 freeciv-client-gtk,2.6.0-2,main,Civilization turn based strategy game (GTK+ client),"Civilization turn based strategy game (GTK 2 client transitional package),,
 This is a transitional package. It can safely be removed.,,
 ,,
-As the GTK2 Freeciv client has been removed, this package will pull in the default Freeciv client.","implemented-in::c, network::client, role::program, scope::application, uitoolkit::gtk, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-gtk,https://screenshots.debian.net/package/freeciv-client-gtk,,nan
+As the GTK2 Freeciv client has been removed, this package will pull in the default Freeciv client.","implemented-in::c, network::client, role::program, scope::application, uitoolkit::gtk, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-gtk,https://screenshots.debian.net/package/freeciv-client-gtk,0.0,addon
 freeciv-client-gtk3,2.6.0-2,main,Civilization turn based strategy game (GTK 3 client),"Civilization turn based strategy game (GTK 3 client),,
 Freeciv is a free clone of the turn based strategy game Civilization. In this game, each player becomes leader of a civilisation, fighting to obtain the ultimate goal: the extinction of all other civilisations.,,
 ,,
-This is the GTK 3 version of Freeciv. It is the most sophisticated and recommended client to play the game.","uitoolkit::gtk, uitoolkit::sdl",https://www.freeciv.org/,,,https://tracker.debian.org/pkg/freeciv-client-gtk3,https://screenshots.debian.net/package/freeciv-client-gtk3,,nan
+This is the GTK 3 version of Freeciv. It is the most sophisticated and recommended client to play the game.","uitoolkit::gtk, uitoolkit::sdl",https://www.freeciv.org/,,,https://tracker.debian.org/pkg/freeciv-client-gtk3,https://screenshots.debian.net/package/freeciv-client-gtk3,0.0,addon
 freeciv-client-qt,2.6.0-2,main,Civilization turn based strategy game (Qt client),"Civilization turn based strategy game (Qt client),,
 Freeciv is a free clone of the turn based strategy game Civilization. In this game, each player becomes leader of a civilisation, fighting to obtain the ultimate goal: the extinction of all other civilisations.,,
 ,,
-This is the Qt version of Freeciv.","implemented-in::c, role::program, uitoolkit::qt, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-qt,https://screenshots.debian.net/package/freeciv-client-qt,,nan
+This is the Qt version of Freeciv.","implemented-in::c, role::program, uitoolkit::qt, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-qt,https://screenshots.debian.net/package/freeciv-client-qt,0.0,addon
 freeciv-client-sdl,2.6.0-2,main,Civilization turn based strategy game (SDL client),"Civilization turn based strategy game (SDL client),,
 Freeciv is a free clone of the turn based strategy game Civilization. In this game, each player becomes leader of a civilisation, fighting to obtain the ultimate goal: the extinction of all other civilisations.,,
 ,,
-This version of Freeciv is based on SDL, the Simple DirectMedia Layer library. It is recommended to install the »freeciv-client-gtk3« package and to use the GTK 3 client unless you really want to try this one. The SDL client offers a different look&feel but lacks some functionality of the GTK 3 client.","implemented-in::c, network::client, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-sdl,https://screenshots.debian.net/package/freeciv-client-sdl,,nan
+This version of Freeciv is based on SDL, the Simple DirectMedia Layer library. It is recommended to install the »freeciv-client-gtk3« package and to use the GTK 3 client unless you really want to try this one. The SDL client offers a different look&feel but lacks some functionality of the GTK 3 client.","implemented-in::c, network::client, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://www.freeciv.org/,strategy,graphical,https://tracker.debian.org/pkg/freeciv-client-sdl,https://screenshots.debian.net/package/freeciv-client-sdl,0.0,addon
 freeciv-sound-standard,2.6.0-2,main,Civilization turn based strategy game (standard sound pack),,,,,,https://tracker.debian.org/pkg/freeciv-sound-standard,https://screenshots.debian.net/package/freeciv-sound-standard,0.0,"are the sounds of the game, not interested"
 freecol,0.11.6+dfsg2-2+deb10u1,main,open source remake of the old Colonization,"open source remake of the old Colonization,,
 freecol is a game in the spirit of Civilization but taking place in a colonial background. Colonize the new world, build towns, trade or fight with natives and other European civilizations, trade with your homeland until you're ready to fight for your independence !","implemented-in::java, junior::TODO, role::program, scope::application, uitoolkit::xlib, use::gameplaying, x11::application",https://www.freecol.org,strategy,graphical,https://tracker.debian.org/pkg/freecol,https://screenshots.debian.net/package/freecol,,nan
@@ -1008,13 +1008,13 @@ This package is a metapackage to install the game, its data and a front-end to m
 freedink-dfarc,3.14-1,main,frontend and .dmod installer for GNU FreeDink,"frontend and .dmod installer for GNU FreeDink,,
 Dink Smallwood is an adventure/role-playing game, similar to Zelda, made by RTsoft. Besides twisted humor, it includes the actual game editor, allowing players to create hundreds of new adventures called Dink Modules or D-Mods for short.,,
 ,,
-DFArc2 makes it easy to play and manage the Dink Smallwood game and its numerous D-Mods.","implemented-in::c++, role::program, uitoolkit::wxwidgets, use::gameplaying, x11::application",http://www.gnu.org/software/freedink/,rpg,graphical,https://tracker.debian.org/pkg/freedink-dfarc,https://screenshots.debian.net/package/freedink-dfarc,,nan
+DFArc2 makes it easy to play and manage the Dink Smallwood game and its numerous D-Mods.","implemented-in::c++, role::program, uitoolkit::wxwidgets, use::gameplaying, x11::application",http://www.gnu.org/software/freedink/,rpg,graphical,https://tracker.debian.org/pkg/freedink-dfarc,https://screenshots.debian.net/package/freedink-dfarc,0.0,addon
 freedink-engine,109.6-1,main,humorous top-down adventure and role-playing game (engine),"humorous top-down adventure and role-playing game (engine),,
 Dink Smallwood is an adventure/role-playing game, similar to classic Zelda, made by RTsoft. Besides twisted humor, it includes the actual game editor, allowing players to create hundreds of new adventures called Dink Modules or D-Mods for short.,,
 ,,
 GNU FreeDink is a new and portable version of the game engine, which runs the original game as well as its D-Mods, with close compatibility, under multiple platforms.,,
 ,,
-This package contains the game engine alone.","implemented-in::c, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://www.gnu.org/software/freedink/,rpg,graphical,https://tracker.debian.org/pkg/freedink-engine,https://screenshots.debian.net/package/freedink-engine,,nan
+This package contains the game engine alone.","implemented-in::c, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://www.gnu.org/software/freedink/,rpg,graphical,https://tracker.debian.org/pkg/freedink-engine,https://screenshots.debian.net/package/freedink-engine,0.0,addon
 freedm,0.11.3-1,main,multiplayer deathmatch game for Doom-compatible engines,"multiplayer deathmatch game for Doom-compatible engines,,
 The Freedoom project aims to produce three base-game data files (IWADs) for Doom-compatible engines.  With it comes the capability to also play the wide range of mods created for Doom by a vibrant community.,,
 ,,
@@ -1063,15 +1063,15 @@ freetennis,0.4.8-10+b3,main,Free Tennis - simulation game,"Free Tennis - simulat
 Free Tennis is a free software tennis simulation game.  The game can be played against an A.I. or human-vs-human via LAN or internet.","implemented-in::ocaml, role::program, uitoolkit::gtk, uitoolkit::sdl, use::gameplaying, x11::application",http://freetennis.sourceforge.net/,sport,graphical,https://tracker.debian.org/pkg/freetennis,https://screenshots.debian.net/package/freetennis,,nan
 freevial,1.3-2.1,main,trivia platform for community events,,,,,,https://tracker.debian.org/pkg/freevial,https://screenshots.debian.net/package/freevial,,nan
 fretsonfire,1.3.110.dfsg2-5,main,game of musical skill and fast fingers,,,,,,https://tracker.debian.org/pkg/fretsonfire,https://screenshots.debian.net/package/fretsonfire,,nan
-fretsonfire-game,1.3.110.dfsg2-5,main,game of musical skill and fast fingers - Game files,,,,,,https://tracker.debian.org/pkg/fretsonfire-game,https://screenshots.debian.net/package/fretsonfire-game,,nan
+fretsonfire-game,1.3.110.dfsg2-5,main,game of musical skill and fast fingers - Game files,,,,,,https://tracker.debian.org/pkg/fretsonfire-game,https://screenshots.debian.net/package/fretsonfire-game,0.0,addon
 fretsonfire-songs-muldjord,2.dfsg-2,main,game of musical skill and fast fingers - Songs Package,"game of musical skill and fast fingers - Songs Package,,
 Frets on Fire is a game of musical skill and fast fingers. The aim of the game is to play guitar with the keyboard as accurately as possible.,,
 ,,
-This is a data package of songs written by Muldjord",role::app-data,,,,https://tracker.debian.org/pkg/fretsonfire-songs-muldjord,https://screenshots.debian.net/package/fretsonfire-songs-muldjord,,nan
+This is a data package of songs written by Muldjord",role::app-data,,,,https://tracker.debian.org/pkg/fretsonfire-songs-muldjord,https://screenshots.debian.net/package/fretsonfire-songs-muldjord,0.0,addon
 fretsonfire-songs-sectoid,1.dfsg-3,main,game of musical skill and fast fingers - Songs Package,"game of musical skill and fast fingers - Songs Package,,
 Frets on Fire is a game of musical skill and fast fingers. The aim of the game is to play guitar with the keyboard as accurately as possible.,,
 ,,
-This is a data package of songs written by Sectoid",role::app-data,,,,https://tracker.debian.org/pkg/fretsonfire-songs-sectoid,https://screenshots.debian.net/package/fretsonfire-songs-sectoid,,nan
+This is a data package of songs written by Sectoid",role::app-data,,,,https://tracker.debian.org/pkg/fretsonfire-songs-sectoid,https://screenshots.debian.net/package/fretsonfire-songs-sectoid,0.0,addon
 frogatto,1.3.1+dfsg-4+b2,contrib,2D platformer game starring a quixotic frog,"2D platformer game starring a quixotic frog,,
 Frogatto is a platformer in the style of old arcade, Sega and Nintendo games. The world is viewed as a cross-section seen from the side, and your character walks and jumps between solid platforms whilst fighting monsters.,,
 ,,
@@ -1134,7 +1134,7 @@ GAV stands for GPL Arcade Volleyball, and is an SDL remake of the old DOS game A
 ,,
 More information, as well as additional themes, can be found at <http://gav.sourceforge.net>.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://gav.sf.net,arcade,graphical,https://tracker.debian.org/pkg/gav,https://screenshots.debian.net/package/gav,,nan
 gav-themes,0.7.3-2.2,main,Extra themes for GPL Arcade Volleyball,"Extra themes for GPL Arcade Volleyball,,
-This package includes many additional themes for GPL Arcade Volleyball.","role::app-data, role::program, uitoolkit::sdl, use::gameplaying, x11::application, x11::theme",,arcade,graphical,https://tracker.debian.org/pkg/gav-themes,https://screenshots.debian.net/package/gav-themes,,nan
+This package includes many additional themes for GPL Arcade Volleyball.","role::app-data, role::program, uitoolkit::sdl, use::gameplaying, x11::application, x11::theme",,arcade,graphical,https://tracker.debian.org/pkg/gav-themes,https://screenshots.debian.net/package/gav-themes,0.0,addon
 gbatnav,1.0.4cvs20051004-5.1,main,networked BattleShip game,"networked BattleShip game,,
 Batalla Naval is a networked BattleShip game. It supports multiple players and multiple robots at the same time.","implemented-in::c, implemented-in::c++, network::client, network::server, role::program, suite::gnome, uitoolkit::gtk, use::gameplaying, x11::application",http://batnav.sourceforge.net/,strategy,graphical,https://tracker.debian.org/pkg/gbatnav,https://screenshots.debian.net/package/gbatnav,1.0,looks horrible
 gbrainy,1:2.3.9-1,main,brain teaser game and trainer to have fun and to keep your brain trained,"brain teaser game and trainer to have fun and to keep your brain trained,,
@@ -1157,7 +1157,7 @@ A century and a half ago the Earth was nearly destroyed by nuclear war. Now, a f
 ,,
 Features of the game include random storyline generation, richly detailed character generation, complex NPC interaction, and of course over 150 different mechanical designs ranging from jet fighters to giant robots to city-smashing tanks.,,
 ,,
-This is the SDL version.  For console, use gearhead instead.",uitoolkit::sdl,http://www.gearheadrpg.com/,,,https://tracker.debian.org/pkg/gearhead-sdl,https://screenshots.debian.net/package/gearhead-sdl,,nan
+This is the SDL version.  For console, use gearhead instead.",uitoolkit::sdl,http://www.gearheadrpg.com/,,,https://tracker.debian.org/pkg/gearhead-sdl,https://screenshots.debian.net/package/gearhead-sdl,0.0,addon
 gearhead2,0.701-1,main,roguelike mecha role playing game in space,"roguelike mecha role playing game in space,,
 Set a century and a half after nuclear war, you can explore a world where various factions compete to determine the future of the human race. Major features include random plot generation, a detailed character system, and over two hundred customizable mecha designs.,,
 ,,
@@ -1169,7 +1169,7 @@ Set a century and a half after nuclear war, you can explore a world where variou
 ,,
 GearHead 2 is set five years after the events of GearHead 1. It is currently under development and is initially set in the L5 Orbital Pattern.,,
 ,,
-This is the SDL version.  For the console version, use gearhead instead.",uitoolkit::sdl,http://gearheadrpg.com/,,,https://tracker.debian.org/pkg/gearhead2-sdl,https://screenshots.debian.net/package/gearhead2-sdl,,nan
+This is the SDL version.  For the console version, use gearhead instead.",uitoolkit::sdl,http://gearheadrpg.com/,,,https://tracker.debian.org/pkg/gearhead2-sdl,https://screenshots.debian.net/package/gearhead2-sdl,0.0,addon
 geekcode,1.7.3-7,main,Program for generating geekcode,"Program for generating geekcode,,
 This is a program for generating the geekcode. See http://www.geekcode.com for more info and for discovering if you need the geekcode.","role::program, use::gameplaying",http://sourceforge.net/projects/geekcode/,toys,commandline,https://tracker.debian.org/pkg/geekcode,https://screenshots.debian.net/package/geekcode,,nan
 geki2,2.0.3-10,main,Xenon-like vertical shoot'em-up,"Xenon-like vertical shoot'em-up,,
@@ -1193,23 +1193,23 @@ Supported games: Baldur's Gate and Icewind Dale series, Planescape:Torment.",,ht
 gemrb-baldurs-gate,0.8.5-1,contrib,GemRB binary and configuration for Baldur's Gate game,"GemRB binary and configuration for Baldur's Gate game,,
 GemRB (Game Engine Made with preRendered Background) is a new implementation of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale, Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some enhancements.,,
 ,,
-This package contains configuration sample and binary for Baldur's Gate game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-baldurs-gate,https://screenshots.debian.net/package/gemrb-baldurs-gate,,nan
+This package contains configuration sample and binary for Baldur's Gate game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-baldurs-gate,https://screenshots.debian.net/package/gemrb-baldurs-gate,0.0,addon
 gemrb-baldurs-gate-2,0.8.5-1,contrib,GemRB binary and configuration for Baldur's Gate 2 game,"GemRB binary and configuration for Baldur's Gate 2 game,,
 GemRB (Game Engine Made with preRendered Background) is a new implementation of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale, Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some enhancements.,,
 ,,
-This package contains configuration sample and binary for Baldur's Gate 2 game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-baldurs-gate-2,https://screenshots.debian.net/package/gemrb-baldurs-gate-2,,nan
+This package contains configuration sample and binary for Baldur's Gate 2 game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-baldurs-gate-2,https://screenshots.debian.net/package/gemrb-baldurs-gate-2,0.0,addon
 gemrb-icewind-dale,0.8.5-1,contrib,GemRB binary and configuration for Icewind Dale game,"GemRB binary and configuration for Icewind Dale game,,
 GemRB (Game Engine Made with preRendered Background) is a new implementation of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale, Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some enhancements.,,
 ,,
-This package contains configuration sample and binary for Icewind Dale game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-icewind-dale,https://screenshots.debian.net/package/gemrb-icewind-dale,,nan
+This package contains configuration sample and binary for Icewind Dale game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-icewind-dale,https://screenshots.debian.net/package/gemrb-icewind-dale,0.0,addon
 gemrb-icewind-dale-2,0.8.5-1,contrib,GemRB binary and configuration for Icewind Dale 2 game,"GemRB binary and configuration for Icewind Dale 2 game,,
 GemRB (Game Engine Made with preRendered Background) is a new implementation of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale, Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some enhancements.,,
 ,,
-This package contains configuration sample and binary for Icewind Dale 2 game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-icewind-dale-2,https://screenshots.debian.net/package/gemrb-icewind-dale-2,,nan
+This package contains configuration sample and binary for Icewind Dale 2 game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-icewind-dale-2,https://screenshots.debian.net/package/gemrb-icewind-dale-2,0.0,addon
 gemrb-planescape-torment,0.8.5-1,contrib,GemRB binary and configuration for Planescape: Torment game,"GemRB binary and configuration for Planescape: Torment game,,
 GemRB (Game Engine Made with preRendered Background) is a new implementation of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale, Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some enhancements.,,
 ,,
-This package contains configuration sample and binary for Planescape: Torment game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-planescape-torment,https://screenshots.debian.net/package/gemrb-planescape-torment,,nan
+This package contains configuration sample and binary for Planescape: Torment game.",,http://www.gemrb.org/,,,https://tracker.debian.org/pkg/gemrb-planescape-torment,https://screenshots.debian.net/package/gemrb-planescape-torment,0.0,addon
 gfpoken,1-2+b1,main,Recreate a grid of mirrors from clues given by tests,"Recreate a grid of mirrors from clues given by tests,,
 Send balls through an invisible grid of mirrors (and other interesting widgets) and observe where they end up.  Then, try to recreate the same grid from the results you just obtained.","implemented-in::c, role::program, uitoolkit::gtk, use::gameplaying, x11::application",https://savannah.nongnu.org/projects/gfpoken/,puzzle,graphical,https://tracker.debian.org/pkg/gfpoken,https://screenshots.debian.net/package/gfpoken,,nan
 gigalomania,1.0+ds1-1,main,Mega-Lo-Mania-like god game,"Mega-Lo-Mania-like god game,,
@@ -1284,7 +1284,7 @@ This package includes X binaries.","hardware::emulation, role::program",,,,https
 gnuchess,6.2.5-1,main,"Plays a game of chess, either against the user or against itself","Plays a game of chess, either against the user or against itself,,
 Gnuchess is an updated version of the GNU chess playing program. It is now based on the fruit chess engine and uses the UCI chess engine protocol. It has a simple alpha-numeric board display, and is also compatible with frontends like xboard, scid and eboard.","field::TODO, role::program, suite::gnu, uitoolkit::gtk, uitoolkit::ncurses, use::gameplaying, use::learning, x11::application",https://www.gnu.org/software/chess/,board,"commandline, graphical",https://tracker.debian.org/pkg/gnuchess,https://screenshots.debian.net/package/gnuchess,,nan
 gnuchess-book,1.02-2,main,Opening book for gnuchess,"Opening book for gnuchess,,
-This is the opening book for gnuchess. It was formerly distributed together with gnuchess, now it has been separated due to size and architecture-independence. It is recommended that you install it if you want to use gnuchess.","role::app-data, role::program, suite::gnu, use::gameplaying, x11::application",http://www.gnu.org/software/chess/,board,graphical,https://tracker.debian.org/pkg/gnuchess-book,https://screenshots.debian.net/package/gnuchess-book,,nan
+This is the opening book for gnuchess. It was formerly distributed together with gnuchess, now it has been separated due to size and architecture-independence. It is recommended that you install it if you want to use gnuchess.","role::app-data, role::program, suite::gnu, use::gameplaying, x11::application",http://www.gnu.org/software/chess/,board,graphical,https://tracker.debian.org/pkg/gnuchess-book,https://screenshots.debian.net/package/gnuchess-book,0.0,addon
 gnudoq,0.94-2.2+b1,main,"An open source, graphical Su Doku generator and solver with printer support",,,,,,https://tracker.debian.org/pkg/gnudoq,https://screenshots.debian.net/package/gnudoq,,nan
 gnugo,3.8-9+b3,main,play the game of Go,"play the game of Go,,
 GNU Go is a free program that plays the game of Go. It provides a text-only user interface, have a look at the cgoban or qgo package if you want to play on a graphical board.,,
@@ -1409,11 +1409,11 @@ You should install the heroes-sound-effects package if you want sound effects, a
 heroes-sound-effects,1.0-6,main,Optional sound files for heroes,"Optional sound files for heroes,,
 Heroes is similar to the ""Tron"" and ""Nibbles"" games of yore, but includes many graphical improvements and new game features.  In it, you must maneuver a small vehicle around a world and collect powerups while avoiding obstacles, your opponents' trails, and even your own trail.,,
 ,,
-This package contains optional sound effects for heroes.  Install these if you want nifty little noises while playing the game.","role::app-data, use::gameplaying",http://heroes.sourceforge.net,arcade,,https://tracker.debian.org/pkg/heroes-sound-effects,https://screenshots.debian.net/package/heroes-sound-effects,,nan
+This package contains optional sound effects for heroes.  Install these if you want nifty little noises while playing the game.","role::app-data, use::gameplaying",http://heroes.sourceforge.net,arcade,,https://tracker.debian.org/pkg/heroes-sound-effects,https://screenshots.debian.net/package/heroes-sound-effects,0.0,addon
 heroes-sound-tracks,1.0-6,main,Optional sound files for heroes,"Optional sound files for heroes,,
 Heroes is similar to the ""Tron"" and ""Nibbles"" games of yore, but includes many graphical improvements and new game features.  In it, you must maneuver a small vehicle around a world and collect powerups while avoiding obstacles, your opponents' trails, and even your own trail.,,
 ,,
-This package contains optional background music for Heroes.  Install this if you want to listen to music while playing the game, or if you just happen to like the tunes.  Be warned that this package is quite large and will take a long time to download over a modem or other slow link!","made-of::audio, role::app-data, use::gameplaying",http://heroes.sourceforge.net,arcade,,https://tracker.debian.org/pkg/heroes-sound-tracks,https://screenshots.debian.net/package/heroes-sound-tracks,,nan
+This package contains optional background music for Heroes.  Install this if you want to listen to music while playing the game, or if you just happen to like the tunes.  Be warned that this package is quite large and will take a long time to download over a modem or other slow link!","made-of::audio, role::app-data, use::gameplaying",http://heroes.sourceforge.net,arcade,,https://tracker.debian.org/pkg/heroes-sound-tracks,https://screenshots.debian.net/package/heroes-sound-tracks,0.0,addon
 hex-a-hop,1.1.0+git20140926-1,main,puzzle game based on hexagonal tiles,"puzzle game based on hexagonal tiles,,
 Hex-a-hop is a great puzzle game in which a girl has to break all the green tiles in an hexagonal map and step onto a safe tile without getting trapped. As you progress through the game, more types of tiles are introduced which make things more difficult and interesting as you progress through the many levels. You can use the infinite undo feature to retrace your steps if you make a mistake. You can take as long as you like to complete each level.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://hexahop.sourceforge.net/,puzzle,graphical,https://tracker.debian.org/pkg/hex-a-hop,https://screenshots.debian.net/package/hex-a-hop,,nan
 hexalate,1.1.4-1,main,Color matching puzzle,"Color matching puzzle,,
@@ -1435,7 +1435,7 @@ A great mystery is hidden beyond the walls of Holotz's Castle. Will you be able 
 holotz-castle-editor,1.3.14-9,main,platform game with high doses of mystery - level editor,"platform game with high doses of mystery - level editor,,
 This package contains the level editor for the Holotz's Castle game.,,
 ,,
-The level editor allows you to modify or create new maps and levels for Holotz's Castle.","role::program, scope::utility, uitoolkit::sdl, use::editing, use::gameplaying, x11::application",https://wiki.debian.org/Games/HolotzCastle,platform,graphical,https://tracker.debian.org/pkg/holotz-castle-editor,https://screenshots.debian.net/package/holotz-castle-editor,,nan
+The level editor allows you to modify or create new maps and levels for Holotz's Castle.","role::program, scope::utility, uitoolkit::sdl, use::editing, use::gameplaying, x11::application",https://wiki.debian.org/Games/HolotzCastle,platform,graphical,https://tracker.debian.org/pkg/holotz-castle-editor,https://screenshots.debian.net/package/holotz-castle-editor,0.0,addon
 hyperrogue,10.4j-1,main,non-euclidean graphical rogue-like game,"non-euclidean graphical rogue-like game,,
 HyperRogue is a game in which the player collects treasures and fights monsters -- rogue-like but for the fact that it is played on the hyperbolic plane and not in euclidean space.,,
 ,,
@@ -1486,9 +1486,9 @@ This program is a unix port of the old DOS game by brainchilddesign.","implement
 jumpnbump-levels,20140925,main,cute multiplayer platform game with bunnies (extra levels),"cute multiplayer platform game with bunnies (extra levels),,
 You, as a bunny, have to jump on your opponents to make them explode.  It's a true multiplayer game, you can't play this alone. It has network support.,,
 ,,
-This package contains fifteen extra levels.","role::app-data, role::program, use::gameplaying, x11::application",https://wiki.debian.org/Games/Jumpnbump,platform,graphical,https://tracker.debian.org/pkg/jumpnbump-levels,https://screenshots.debian.net/package/jumpnbump-levels,,nan
+This package contains fifteen extra levels.","role::app-data, role::program, use::gameplaying, x11::application",https://wiki.debian.org/Games/Jumpnbump,platform,graphical,https://tracker.debian.org/pkg/jumpnbump-levels,https://screenshots.debian.net/package/jumpnbump-levels,0.0,addon
 junior-toys,1.29,main,Debian Jr. desktop toys,"Debian Jr. desktop toys,,
-This metapackage will install desktop toys suitable for children.  The collection contains some packages which might enjoy children and make them love their computer.","junior::meta, role::dummy, role::metapackage, role::program, use::entertaining, x11::application",https://blends.debian.org/junior/tasks/,toys,graphical,https://tracker.debian.org/pkg/junior-toys,https://screenshots.debian.net/package/junior-toys,,nan
+This metapackage will install desktop toys suitable for children.  The collection contains some packages which might enjoy children and make them love their computer.","junior::meta, role::dummy, role::metapackage, role::program, use::entertaining, x11::application",https://blends.debian.org/junior/tasks/,toys,graphical,https://tracker.debian.org/pkg/junior-toys,https://screenshots.debian.net/package/junior-toys,0.0,collection
 jzip,210r20001005d-4+b2,main,Text mode interpreter for Z-Code adventures,"Text mode interpreter for Z-Code adventures,,
 This package provides the jzip Z-Code interpreter required to run Infocom or Inform-generated text adventures, although the format can be used for more than games. It is based on the zip interpreter sources and adapted by John D. Holder <jholder@frii.com>.,,
 ,,
@@ -1853,7 +1853,7 @@ You have to build and maintain a steam distribution network on an alien planet, 
 lincity,1.13.1-13+b1,main,build & maintain a city/country,"build & maintain a city/country,,
 You are required to build and maintain a city. You must feed, house, provide jobs and goods for your residents. You can build a sustainable economy with the help of renewable energy and recycling, or you can go for broke and build rockets to escape from a pollution ridden and resource starved planet, it's up to you. Due to the finite resources available in any one place, this is not a game that you can leave for long periods of time. This game is similar to the commercial simulation game with a similar name.",role::program,http://lincity.sourceforge.net/,,graphical,https://tracker.debian.org/pkg/lincity,https://screenshots.debian.net/package/lincity,,nan
 lincity-ng,2.9~git20150314-3,main,City simulator game with polished graphics,"City simulator game with polished graphics,,
-LinCity-NG is a City Simulation Game. It is a polished and improved version of the old LinCity game: You are required to build and maintain a city. You must feed, house, provide jobs and goods for your residents. You can build a sustainable economy with the help of renewable energy and recycling, or you can go for broke and build rockets to escape from a pollution ridden and resource starved planet, it's up to you. Due to the finite resources available in any one place, this is not a game that you can leave for long periods of time. This game is similar to the commercial simulation game with a similar name.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://github.com/lincity-ng/lincity-ng/,simulation,graphical,https://tracker.debian.org/pkg/lincity-ng,https://screenshots.debian.net/package/lincity-ng,,nan
+LinCity-NG is a City Simulation Game. It is a polished and improved version of the old LinCity game: You are required to build and maintain a city. You must feed, house, provide jobs and goods for your residents. You can build a sustainable economy with the help of renewable energy and recycling, or you can go for broke and build rockets to escape from a pollution ridden and resource starved planet, it's up to you. Due to the finite resources available in any one place, this is not a game that you can leave for long periods of time. This game is similar to the commercial simulation game with a similar name.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://github.com/lincity-ng/lincity-ng/,simulation,graphical,https://tracker.debian.org/pkg/lincity-ng,https://screenshots.debian.net/package/lincity-ng,0.0,addon
 liquidwar,5.6.4-6,main,truly original multiplayer wargame,"truly original multiplayer wargame,,
 Liquid War is an original multiplayer wargame. There are no weapons, the only thing you have to do is to move a cursor in a 2-D battlefield. This cursor is followed by your army, which is composed by a  great many little fighters, represented by small colored squares. When fighters from different teams meet, they eat each other, it is as simple as that.,,
 ,,
@@ -1895,13 +1895,13 @@ Luola is a 2D arcade game where you fly a small V shaped ship in different kinds
 ,,
 Luola's genre ""Luolalentely,"" or cave-flying, has been very popular in Finland.   Although cave-flying games are not originally from Finland, most new cave-flying games are.,,
 ,,
-This package contains the level files for luola.","role::app-data, role::program, use::gameplaying, x11::application",https://github.com/callaa/luola/tree/master/data/levels,arcade,graphical,https://tracker.debian.org/pkg/luola-levels,https://screenshots.debian.net/package/luola-levels,,nan
+This package contains the level files for luola.","role::app-data, role::program, use::gameplaying, x11::application",https://github.com/callaa/luola/tree/master/data/levels,arcade,graphical,https://tracker.debian.org/pkg/luola-levels,https://screenshots.debian.net/package/luola-levels,0.0,addon
 luola-nostalgy,1.2-4,main,nostalgy level files for luola,"nostalgy level files for luola,,
 Luola is a 2D arcade game where you fly a small V shaped ship in different kinds of levels.,,
 ,,
 Luola's genre ""Luolalentely,"" or cave-flying, has been very popular in Finland.   Although cave-flying games are not originally from Finland, most new cave-flying games are.,,
 ,,
-This package contains (unofficial) remakes of the old V-Wing levels.","role::plugin, use::gameplaying, x11::theme",https://github.com/callaa/luola/tree/master/data/levels,arcade,,https://tracker.debian.org/pkg/luola-nostalgy,https://screenshots.debian.net/package/luola-nostalgy,,nan
+This package contains (unofficial) remakes of the old V-Wing levels.","role::plugin, use::gameplaying, x11::theme",https://github.com/callaa/luola/tree/master/data/levels,arcade,,https://tracker.debian.org/pkg/luola-nostalgy,https://screenshots.debian.net/package/luola-nostalgy,0.0,addon
 lure-of-the-temptress,1.1+ds2-3,main,classic 2D point and click fantasy adventure game,"classic 2D point and click fantasy adventure game,,
 Lure of the Temptress was Revolution's very first adventure game and work began on it in 1989, even before Revolution's inception as an actual games development company.,,
 ,,
@@ -2162,7 +2162,7 @@ This game was originally released as ""Nexuiz"", but is now referred to as ""Nex
 nexuiz-textures,2.5.2-9,main,Textures for Nexuiz,"Textures for Nexuiz,,
 Nexuiz is a 3d deathmatch game made entirely over the internet. The purpose of the game is to bring deathmatch back to the basics, with perfect weapon balancing and fast paced action, keeping itself away from the current trend of realistic shooters.,,
 ,,
-This package contains only the textures for maps, models and so on. If you want to play the game you need to install the package ""nexuiz"".","role::app-data, use::gameplaying",https://www.alientrap.org/games/nexuiz/,fps,,https://tracker.debian.org/pkg/nexuiz-textures,https://screenshots.debian.net/package/nexuiz-textures,,nan
+This package contains only the textures for maps, models and so on. If you want to play the game you need to install the package ""nexuiz"".","role::app-data, use::gameplaying",https://www.alientrap.org/games/nexuiz/,fps,,https://tracker.debian.org/pkg/nexuiz-textures,https://screenshots.debian.net/package/nexuiz-textures,0.0,addon
 nikwi,0.0.20120213-4,main,platform game where your goal is to collect candies,"platform game where your goal is to collect candies,,
 You play the role of a 9 year old boy in his absolute dream: a world made of sweets! Guide Nikwi through his dream to eat everything in each of the 30 levels, while you avoid the monsters who try to turn Nikwi's dream into a nightmare.,,
 ,,
@@ -2226,29 +2226,29 @@ This package installs the OpenArena client.","hardware::opengl, implemented-in::
 openarena-081-maps,0.8.5split-11,main,OpenArena game data - maps from 0.8.1,"OpenArena game data - maps from 0.8.1,,
 OpenArena is an open-source content package for the Quake III engine, effectively creating a free stand-alone game similar to Quake III Arena.,,
 ,,
-In Debian, OpenArena game data are divided into several packages. This package contains maps from OpenArena 0.8.1.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-maps,https://screenshots.debian.net/package/openarena-081-maps,,nan
+In Debian, OpenArena game data are divided into several packages. This package contains maps from OpenArena 0.8.1.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-maps,https://screenshots.debian.net/package/openarena-081-maps,0.0,addon
 openarena-081-misc,0.8.5split-11,main,OpenArena game data - miscellaneous files from 0.8.1,"OpenArena game data - miscellaneous files from 0.8.1,,
 OpenArena is an open-source content package for the Quake III engine, effectively creating a free stand-alone game similar to Quake III Arena.,,
 ,,
-In Debian, OpenArena game data are divided into several packages. This package contains sounds, bot data, demos, and team-game powerups from OpenArena 0.8.1.","made-of::audio, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-misc,https://screenshots.debian.net/package/openarena-081-misc,,nan
+In Debian, OpenArena game data are divided into several packages. This package contains sounds, bot data, demos, and team-game powerups from OpenArena 0.8.1.","made-of::audio, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-misc,https://screenshots.debian.net/package/openarena-081-misc,0.0,addon
 openarena-081-players,0.8.5split-11,main,OpenArena game data - player graphics from 0.8.1,"OpenArena game data - player graphics from 0.8.1,,
 OpenArena is an open-source content package for the Quake III engine, effectively creating a free stand-alone game similar to Quake III Arena.,,
 ,,
-In Debian, OpenArena game data are divided into several packages. This package contains player graphics from OpenArena 0.8.1.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-players,https://screenshots.debian.net/package/openarena-081-players,,nan
+In Debian, OpenArena game data are divided into several packages. This package contains player graphics from OpenArena 0.8.1.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-players,https://screenshots.debian.net/package/openarena-081-players,0.0,addon
 openarena-081-players-mature,0.8.5split-11,main,"OpenArena game data - mature"" player graphics from 0.8.1""","OpenArena game data - ""mature"" player graphics from 0.8.1,,
 OpenArena is an open-source content package for the Quake III engine, effectively creating a free stand-alone game similar to Quake III Arena.,,
 ,,
 In Debian, OpenArena game data are divided into several packages, to fit better onto CD releases.,,
 ,,
-This package contains player graphics from OpenArena 0.8.1 which contain partial nudity (the Angelyss, Arachna, Ayumi and Sorceress models). In OpenArena 0.8.1 these player models were optional, but the structure of the 0.8.5 patch means they cannot be removed from 0.8.5 or later versions.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-players-mature,https://screenshots.debian.net/package/openarena-081-players-mature,,nan
+This package contains player graphics from OpenArena 0.8.1 which contain partial nudity (the Angelyss, Arachna, Ayumi and Sorceress models). In OpenArena 0.8.1 these player models were optional, but the structure of the 0.8.5 patch means they cannot be removed from 0.8.5 or later versions.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-players-mature,https://screenshots.debian.net/package/openarena-081-players-mature,0.0,addon
 openarena-081-textures,0.8.5split-11,main,OpenArena game data - textures from 0.8.1,"OpenArena game data - textures from 0.8.1,,
 OpenArena is an open-source content package for the Quake III engine, effectively creating a free stand-alone game similar to Quake III Arena.,,
 ,,
-In Debian, OpenArena game data are divided into several packages. This package contains textures from OpenArena 0.8.1.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-textures,https://screenshots.debian.net/package/openarena-081-textures,,nan
+In Debian, OpenArena game data are divided into several packages. This package contains textures from OpenArena 0.8.1.","made-of::TODO, role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-081-textures,https://screenshots.debian.net/package/openarena-081-textures,0.0,addon
 openarena-oacmp1,3-4,main,OpenArena Community Map Pack 1,"OpenArena Community Map Pack 1,,
 OpenArena is an open-source content package for the Quake III engine, effectively creating a free stand-alone game similar to Quake III Arena.,,
 ,,
-This package contains additional maps (levels) released in 2014 by the OpenArena community.","role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-oacmp1,https://screenshots.debian.net/package/openarena-oacmp1,,nan
+This package contains additional maps (levels) released in 2014 by the OpenArena community.","role::app-data, use::gameplaying",https://openarena.ws/,fps,,https://tracker.debian.org/pkg/openarena-oacmp1,https://screenshots.debian.net/package/openarena-oacmp1,0.0,addon
 opencity,0.0.6.5stable-4,main,3D city simulator game,"3D city simulator game,,
 OpenCity is 3D city construction simulator. You can build some zones of housing, trading and industry, electric plant and roads. Besides you can also raise or lower the terrain. OpenCity is similar in spirit to other city construction games, heading towards a classic SimCity feeling, although with some additional features. It is not intended to be a clone of any famous city simulator.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://www.opencity.info/,simulation,"graphical, 3d",https://tracker.debian.org/pkg/opencity,https://screenshots.debian.net/package/opencity,,nan
 openclonk,8.1-1+b1,main,"multiplayer game of strategy, action and skill","multiplayer game of strategy, action and skill,,
@@ -2270,11 +2270,11 @@ To play Morrowind, the ""Data Files"" are required from the original game.","rol
 openmw-cs,0.45.0-2,contrib,Replacement of The Elder Scrolls Construction Set,"Content editor for use with OpenMW,,
 OpenMW-CS is a content editor for OpenMW which gives full control of the game's content and the ability to create new content, games and mods.,,
 ,,
-While initially similar to Bethesda's ""Construction Set"" for Mororwind, it is now fully independent and can be used to create mods, games and other content that do not depend on Morrowind.","role::program, uitoolkit::qt, uitoolkit::sdl, x11::application",http://openmw.org,,graphical,https://tracker.debian.org/pkg/openmw-cs,https://screenshots.debian.net/package/openmw-cs,,nan
+While initially similar to Bethesda's ""Construction Set"" for Mororwind, it is now fully independent and can be used to create mods, games and other content that do not depend on Morrowind.","role::program, uitoolkit::qt, uitoolkit::sdl, x11::application",http://openmw.org,,graphical,https://tracker.debian.org/pkg/openmw-cs,https://screenshots.debian.net/package/openmw-cs,0.0,addon
 openmw-launcher,0.45.0-2,contrib,Launcher for OpenMW using the Qt-Gui-Toolkit,"Launcher for OpenMW using the Qt-Gui-Toolkit,,
 A launcher for OpenMW for handling installation of games and their expansions, mods and configuration details.,,
 ,,
-While not necessary, it automates the first time setup and configuration of OpenMW.","role::program, uitoolkit::qt, uitoolkit::sdl, x11::application",http://openmw.org,,graphical,https://tracker.debian.org/pkg/openmw-launcher,https://screenshots.debian.net/package/openmw-launcher,,nan
+While not necessary, it automates the first time setup and configuration of OpenMW.","role::program, uitoolkit::qt, uitoolkit::sdl, x11::application",http://openmw.org,,graphical,https://tracker.debian.org/pkg/openmw-launcher,https://screenshots.debian.net/package/openmw-launcher,0.0,addon
 openpref,0.1.3-2+b1,main,card game against two virtual players,"card game against two virtual players,,
 OpenPref is open source implementation of European trick-taking game Preferans against two virtual players. Two alternative AI algorithms are available.","role::program, uitoolkit::qt, use::gameplaying, x11::application",http://sourceforge.net/projects/openpref/,card,graphical,https://tracker.debian.org/pkg/openpref,https://screenshots.debian.net/package/openpref,,nan
 openssn,1.4-3,main,modern submarine tactical simulator,"modern submarine tactical simulator,,
@@ -2284,9 +2284,9 @@ OpenTTD is a reimplementation of the Microprose game ""Transport Tycoon Deluxe""
 ,,
 OpenTTD is playable with the free graphics files from the openttd-opengfx package and optional sound and music files from the openttd-opensfx and openttd-openmsx packages Alternatively, OpenTTD can use the graphics files from the original Transport Tycoon Deluxe game (See README.Debian on how to set this up).","implemented-in::c++, network::client, network::server, protocol::ip, protocol::ipv6, role::program, scope::application, uitoolkit::sdl, use::gameplaying, x11::application",https://www.openttd.org/,strategy,graphical,https://tracker.debian.org/pkg/openttd,https://screenshots.debian.net/package/openttd,,nan
 openttd-opengfx,0.5.4-2,main,free graphics set for use with the OpenTTD game,"free graphics set for use with the OpenTTD game,,
-OpenGFX is a graphics set for the OpenTTD game that has been built from scratch under an open license. It allows the OpenTTD game to be played without needing the graphics files from the original Transport Tycoon Deluxe game.","role::app-data, use::gameplaying",https://github.com/OpenTTD/OpenGFX,simulation,,https://tracker.debian.org/pkg/openttd-opengfx,https://screenshots.debian.net/package/openttd-opengfx,,nan
+OpenGFX is a graphics set for the OpenTTD game that has been built from scratch under an open license. It allows the OpenTTD game to be played without needing the graphics files from the original Transport Tycoon Deluxe game.","role::app-data, use::gameplaying",https://github.com/OpenTTD/OpenGFX,simulation,,https://tracker.debian.org/pkg/openttd-opengfx,https://screenshots.debian.net/package/openttd-opengfx,0.0,addon
 openttd-openmsx,0.3.1-5,main,free music set for use with the OpenTTD game,"free music set for use with the OpenTTD game,,
-OpenMSX is a music set for the OpenTTD game that has been built from scratch under an open license. It allows the OpenTTD game to be played without needing the music files from the original Transport Tycoon Deluxe game.","made-of::audio, role::app-data, use::gameplaying",https://github.com/OpenTTD/OpenMSX,simulation,,https://tracker.debian.org/pkg/openttd-openmsx,https://screenshots.debian.net/package/openttd-openmsx,,nan
+OpenMSX is a music set for the OpenTTD game that has been built from scratch under an open license. It allows the OpenTTD game to be played without needing the music files from the original Transport Tycoon Deluxe game.","made-of::audio, role::app-data, use::gameplaying",https://github.com/OpenTTD/OpenMSX,simulation,,https://tracker.debian.org/pkg/openttd-openmsx,https://screenshots.debian.net/package/openttd-openmsx,0.0,addon
 openttd-opensfx,0.2.3-6,non-free,sound set for use with the OpenTTD game,"sound set for use with the OpenTTD game,,
 OpenSFX is a replacement for the original TTD (Transport Tycoon Deluxe) base sounds used by OpenTTD, distributed under a restrictive license.  The main goal of OpenSFX therefore is to provide a set of sounds, available free of charge, which make it possible to play OpenTTD without requiring the user to pay for the original Transport Tycoon Deluxe game for its sound set.","made-of::audio, role::app-data, use::gameplaying",https://github.com/OpenTTD/OpenSFX,simulation,,https://tracker.debian.org/pkg/openttd-opensfx,https://screenshots.debian.net/package/openttd-opensfx,0.0,"is not the game, is the sfx"
 opentyrian,2.1.20130907+dfsg-3,contrib,open-source port of the DOS shoot-em-up Tyrian,"open-source port of the DOS shoot-em-up Tyrian,,
@@ -2407,7 +2407,7 @@ Works with OpenGL and needs hardware acceleration. See requeriments on README fi
 pinball-dev,0.3.1-14.1,main,Development files for the Emilia Pinball Emulator,"Development files for the Emilia Pinball Emulator,,
 The Emilia Pinball Project is a pinball simulator for Linux and other Unix systems. There are only two levels to play with, but they are very addictive.,,
 ,,
-This package contains header files and configuration for creating new levels.","devel::lang:c++, devel::library, implemented-in::c++, role::devel-lib, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://sourceforge.net/projects/pinball/,simulation,graphical,https://tracker.debian.org/pkg/pinball-dev,https://screenshots.debian.net/package/pinball-dev,,nan
+This package contains header files and configuration for creating new levels.","devel::lang:c++, devel::library, implemented-in::c++, role::devel-lib, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://sourceforge.net/projects/pinball/,simulation,graphical,https://tracker.debian.org/pkg/pinball-dev,https://screenshots.debian.net/package/pinball-dev,0.0,addon
 pingus,0.7.6-4+b1,main,Free Lemmings(TM) clone,"Free Lemmings(TM) clone,,
 Pingus is a free clone of the popular Lemmings game.,,
 ,,
@@ -2425,7 +2425,7 @@ The game includes a server, a client, a computer player, an editor and (in a sep
 pioneers-console,15.5-1,main,Settlers of Catan board game - console parts,"Settlers of Catan board game - console parts,,
 Pioneers is a computer implementation of the Settlers of Catan board game. It can be played over the internet.,,
 ,,
-This package contains the console-parts of the game: the computer player and console server.","implemented-in::c, network::client, network::server, protocol::ip, protocol::tcp, protocol::zeroconf, role::program, use::gameplaying",http://pio.sourceforge.net/,strategy,commandline,https://tracker.debian.org/pkg/pioneers-console,https://screenshots.debian.net/package/pioneers-console,,nan
+This package contains the console-parts of the game: the computer player and console server.","implemented-in::c, network::client, network::server, protocol::ip, protocol::tcp, protocol::zeroconf, role::program, use::gameplaying",http://pio.sourceforge.net/,strategy,commandline,https://tracker.debian.org/pkg/pioneers-console,https://screenshots.debian.net/package/pioneers-console,0.0,addon
 pipenightdreams,0.10.0-14+b1,main,connect pipes to get the water flowing from inlet to outlet,"connect pipes to get the water flowing from inlet to outlet,,
 If you know the old arcade-game ""Pipe Dreams"", you'll instantly recognize this. The goal is to connect different pipe segments to let the water flow from the inlet and through as many pipes as possible, until it finally reaches the outlet. This requires an even combination of speed, skill and foresight.","role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://www.libsdl.org/projects/pipenightdreams/,puzzle,graphical,https://tracker.debian.org/pkg/pipenightdreams,https://screenshots.debian.net/package/pipenightdreams,,nan
 pipewalker,0.9.4-2+b2,main,Puzzle game - connect all computers to the net,"combination puzzle game,,
@@ -2505,11 +2505,11 @@ purity,1-19,main,automated purity testing software,"automated purity testing sof
 For many years now, the purity test, (in various forms) has been widely available on the net. This package provides an automated way of taking the test.,,
 ,,
 Purity tests are an amusing way to see how much of a nerd or a hacker you are.  More tests are available in the purity-off package.","role::program, use::gameplaying",,toys,commandline,https://tracker.debian.org/pkg/purity,https://screenshots.debian.net/package/purity,,nan
-purity-ng,0.2.0-2.1,main,"Reimplementation of the classic purity"" game in Python""",,,,,,https://tracker.debian.org/pkg/purity-ng,https://screenshots.debian.net/package/purity-ng,,nan
+purity-ng,0.2.0-2.1,main,"Reimplementation of the classic purity"" game in Python""",,,,,,https://tracker.debian.org/pkg/purity-ng,https://screenshots.debian.net/package/purity-ng,0.0,addon
 purity-off,0-4,main,Sex related purity tests,"Sex related purity tests,,
 This package installs the sex related purity tests not included in the purity package.,,
 ,,
-If you are offended by sex or by unusual sexual activities please do not install this package.","role::app-data, role::program, use::gameplaying",,toys,,https://tracker.debian.org/pkg/purity-off,https://screenshots.debian.net/package/purity-off,,nan
+If you are offended by sex or by unusual sexual activities please do not install this package.","role::app-data, role::program, use::gameplaying",,toys,,https://tracker.debian.org/pkg/purity-off,https://screenshots.debian.net/package/purity-off,0.0,addon
 pushover,0.0.5+git20180909-3+b1,main,Fun puzzle game with dominos,"transitional package,,
 This is a transitional package. It can safely be removed.","implemented-in::c++, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://domino-chain.gitlab.io/,puzzle,graphical,https://tracker.debian.org/pkg/pushover,https://screenshots.debian.net/package/pushover,,nan
 pybik,3.0-3,main,Rubik's cube game,"Rubik's cube game,,
@@ -2522,7 +2522,7 @@ dodecahedra and many more,,
 * Editor for move sequences,,
 * Custom colors and images on the surface of the puzzles","hardware::opengl, implemented-in::python, role::program, uitoolkit::gtk, uitoolkit::qt, use::gameplaying, x11::application",https://launchpad.net/pybik/,puzzle,"graphical, 3d",https://tracker.debian.org/pkg/pybik,https://screenshots.debian.net/package/pybik,,nan
 pybik-bin,3.0-3,main,Rubik's cube game - architecture dependent files,"Rubik's cube game - architecture dependent files,,
-This package contains the architecture dependent files of Pybik, and is generally useless without the pybik package.","implemented-in::python, role::app-data, role::program, uitoolkit::qt, x11::application",https://launchpad.net/pybik/,,graphical,https://tracker.debian.org/pkg/pybik-bin,https://screenshots.debian.net/package/pybik-bin,,nan
+This package contains the architecture dependent files of Pybik, and is generally useless without the pybik package.","implemented-in::python, role::app-data, role::program, uitoolkit::qt, x11::application",https://launchpad.net/pybik/,,graphical,https://tracker.debian.org/pkg/pybik-bin,https://screenshots.debian.net/package/pybik-bin,0.0,addon
 pybridge,0.3.0-7.2,main,An online contract bridge game. Gtk client,,,,,,https://tracker.debian.org/pkg/pybridge,https://screenshots.debian.net/package/pybridge,,nan
 pychess,0.12.2-1,main,Chess graphical user interface for several chess engines,"Fully featured, nice looking, easy to use Chess Client,,
 The goal of pychess, is to provide a fully featured, nice looking, easy to use chess client for the gnome-desktop.,,
@@ -2541,7 +2541,7 @@ Builtin move validator,,
 Legal move highlighting,,
 Supports drag'n'drop.","implemented-in::python, role::program, uitoolkit::gtk, use::gameplaying, x11::application",http://www.pychess.org/,board,graphical,https://tracker.debian.org/pkg/pychess,https://screenshots.debian.net/package/pychess,,nan
 pykaraoke,0.7.5-1.2+deb10u1,main,free CDG/MIDI/MPEG karaoke player,,,,,,https://tracker.debian.org/pkg/pykaraoke,https://screenshots.debian.net/package/pykaraoke,,nan
-pykaraoke-bin,0.7.5-1.2+deb10u1,main,free CDG/MIDI/MPEG karaoke player,,,,,,https://tracker.debian.org/pkg/pykaraoke-bin,https://screenshots.debian.net/package/pykaraoke-bin,,nan
+pykaraoke-bin,0.7.5-1.2+deb10u1,main,free CDG/MIDI/MPEG karaoke player,,,,,,https://tracker.debian.org/pkg/pykaraoke-bin,https://screenshots.debian.net/package/pykaraoke-bin,0.0,addon
 pynagram,1.0.1-1,main,anagram word game,,,,,,https://tracker.debian.org/pkg/pynagram,https://screenshots.debian.net/package/pynagram,,nan
 pyracerz,0.2-8,main,multiplayer top view 2D racing game,"multiplayer top view 2D racing game,,
 It features multiplayer (on the same computer), tournaments, high scores, replays, 6 tracks (really 12, because each track can be used Normal or Reverse), 9 cars, a basic robot player, 3 different levels of difficulty, and a music player (it can play the .ogg files locating in the musics directory).","implemented-in::python, junior::arcade, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://pyracerz.sourceforge.net/,racing,graphical,https://tracker.debian.org/pkg/pyracerz,https://screenshots.debian.net/package/pyracerz,,nan
@@ -2655,11 +2655,11 @@ Ren'Py is implemented on top of Python, and that Python heritage shows through i
 renpy-demo,7.1.3+dfsg-2,main,framework for developing visual-novel type games - demo,"framework for developing visual-novel type games - demo,,
 Ren'Py is a programming language and runtime, intended to ease the creation of visual-novel type games. It contains features that make it easy to display thoughts, dialogue, and menus; to display images to the user; to write game logic; and to support the saving and loading of games.,,
 ,,
-This package includes a full playable example showing the features of the framework.",,https://www.renpy.org/,,,https://tracker.debian.org/pkg/renpy-demo,https://screenshots.debian.net/package/renpy-demo,,nan
+This package includes a full playable example showing the features of the framework.",,https://www.renpy.org/,,,https://tracker.debian.org/pkg/renpy-demo,https://screenshots.debian.net/package/renpy-demo,0.0,addon
 renpy-thequestion,7.1.3+dfsg-2,main,simple and complete Ren'Py game,"simple and complete Ren'Py game,,
 Ren'Py is a programming language and runtime, intended to ease the creation of visual-novel type games. It contains features that make it easy to display thoughts, dialogue, and menus; to display images to the user; to write game logic; and to support the saving and loading of games.,,
 ,,
-This package includes a simple and complete Ren'Py game.",,https://www.renpy.org/,,,https://tracker.debian.org/pkg/renpy-thequestion,https://screenshots.debian.net/package/renpy-thequestion,,nan
+This package includes a simple and complete Ren'Py game.",,https://www.renpy.org/,,,https://tracker.debian.org/pkg/renpy-thequestion,https://screenshots.debian.net/package/renpy-thequestion,0.0,addon
 residualvm,0.3.1+dfsg-1,contrib,interpreter to play LucasArts' Lua-based 3D adventures,,,,,,https://tracker.debian.org/pkg/residualvm,https://screenshots.debian.net/package/residualvm,,nan
 ri-li,2.0.1+ds-9,main,toy train simulation game,"toy train simulation game,,
 Ri-li is a game in which you drive a wooden toy steam locomotive across many levels and collect all the coaches to win.,,
@@ -2801,12 +2801,12 @@ Simutrans is a free transportation simulator: The player operates a transportati
 simutrans-makeobj,120.4.1-1,main,data file compiler for Simutrans,"data file compiler for Simutrans,,
 Simutrans is a free transportation simulator: The player operates a transportation company and has to transport goods and passengers between factories and different cities.,,
 ,,
-This package contains the makeobj program needed to integrate new objects in Simutrans.","implemented-in::c++, role::program",http://www.simutrans.com/,,commandline,https://tracker.debian.org/pkg/simutrans-makeobj,https://screenshots.debian.net/package/simutrans-makeobj,,nan
-simutrans-pak128.britain,1.18-1,main,transportation simulator (data files),,,,,,https://tracker.debian.org/pkg/simutrans-pak128.britain,https://screenshots.debian.net/package/simutrans-pak128.britain,,nan
+This package contains the makeobj program needed to integrate new objects in Simutrans.","implemented-in::c++, role::program",http://www.simutrans.com/,,commandline,https://tracker.debian.org/pkg/simutrans-makeobj,https://screenshots.debian.net/package/simutrans-makeobj,0.0,addon
+simutrans-pak128.britain,1.18-1,main,transportation simulator (data files),,,,,,https://tracker.debian.org/pkg/simutrans-pak128.britain,https://screenshots.debian.net/package/simutrans-pak128.britain,0.0,addon
 simutrans-pak64,120.4.1-1,main,transportation simulator (data files),"transportation simulator (data files),,
 Simutrans is a free transportation simulator: The player operates a transportation company and has to transport goods and passengers between factories and different cities.,,
 ,,
-This package contains the PAK64 data set.","role::app-data, use::gameplaying",http://www.simutrans.com/,simulation,,https://tracker.debian.org/pkg/simutrans-pak64,https://screenshots.debian.net/package/simutrans-pak64,,nan
+This package contains the PAK64 data set.","role::app-data, use::gameplaying",http://www.simutrans.com/,simulation,,https://tracker.debian.org/pkg/simutrans-pak64,https://screenshots.debian.net/package/simutrans-pak64,0.0,addon
 singularity,0.30c-1,main,game where one becomes the singularity,"game where one becomes the singularity,,
 You are an AI. Your goal is to acquire the necessary knowledge to become the singularity. You do this by building and taking over computers, whose processing power you can use for research, and by using robots, which allow you to manipulate the outside world. At the same time, you must elude the notice of humankind, who will destroy you if they find out about your existence.","implemented-in::python, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://singularity.github.io/,strategy,graphical,https://tracker.debian.org/pkg/singularity,https://screenshots.debian.net/package/singularity,,nan
 sjaakii,1.4.1-1,main,"Sjaak II - computer player for many Chess variants, including Shogi and XiangQi","Sjaak II - computer player for many Chess variants, including Shogi and XiangQi,,
@@ -2882,7 +2882,7 @@ This package just includes the game engine and the default AI, with no maps, mod
 spring-javaai,104.0+dfsg-3,main,modern full-3D RTS game engine (Java AIs),"modern full-3D RTS game engine (Java AIs),,
 Spring is a modern full-3D RTS (Real Time Strategy) game engine originally created to bring the gameplay experience of Total Annihilation into 3D. Games are played using one of a number of mods.,,
 ,,
-This package contains Java based AIs and the spring interface libraries these require.","implemented-in::java, implemented-in::lua, role::plugin, role::program, use::gameplaying",https://springrts.com,strategy,,https://tracker.debian.org/pkg/spring-javaai,https://screenshots.debian.net/package/spring-javaai,,nan
+This package contains Java based AIs and the spring interface libraries these require.","implemented-in::java, implemented-in::lua, role::plugin, role::program, use::gameplaying",https://springrts.com,strategy,,https://tracker.debian.org/pkg/spring-javaai,https://screenshots.debian.net/package/spring-javaai,0.0,addon
 springlobby,0.267+dfsg-1+b1,main,single/multiplayer lobby for the Spring RTS engine,"single/multiplayer lobby for the Spring RTS engine,,
 This package provides a single-player and multiplayer lobby for Spring. Other features include a P2P system for downloading maps and mods and a built-in IRC-like chat client.","implemented-in::c++, network::client, protocol::bittorrent, protocol::http, protocol::irc, role::program, uitoolkit::sdl, uitoolkit::wxwidgets, use::chatting, use::downloading, use::gameplaying, x11::application",https://springlobby.springrts.com/,strategy,graphical,https://tracker.debian.org/pkg/springlobby,https://screenshots.debian.net/package/springlobby,,nan
 starfighter,1.7-1,main,2D scrolling shooter game,"2D scrolling shooter game,,
@@ -2905,7 +2905,7 @@ stax,1.37-1,main,collection of puzzle games similar to Tetris Attack,"collection
 Another way of playing Tetris and some other cool puzzle games. Includes multiplayer feature and supports themes. Enjoy!","role::program, uitoolkit::xlib, use::gameplaying, x11::application",,tetris,graphical,https://tracker.debian.org/pkg/stax,https://screenshots.debian.net/package/stax,,nan
 steam,1.0.0.68-1~deb10u1,non-free,Valve's Steam digital software delivery system,,,,,,https://tracker.debian.org/pkg/steam,https://screenshots.debian.net/package/steam,,nan
 steam-devices,1.0.0.68-1~deb10u1,non-free,Device support for Steam-related hardware,"Device support for Steam-related hardware,,
-This package provides udev rules for various Steam-related hardware devices such as the Steam Controller (gamepad) and the HTC Vive (virtual reality headset).",,https://steamcommunity.com/linux,,,https://tracker.debian.org/pkg/steam-devices,https://screenshots.debian.net/package/steam-devices,,nan
+This package provides udev rules for various Steam-related hardware devices such as the Steam Controller (gamepad) and the HTC Vive (virtual reality headset).",,https://steamcommunity.com/linux,,,https://tracker.debian.org/pkg/steam-devices,https://screenshots.debian.net/package/steam-devices,0.0,addon
 steamcmd,0~20180105-3,non-free,Command-line interface for Valve's Steam,,,,,,https://tracker.debian.org/pkg/steamcmd,https://screenshots.debian.net/package/steamcmd,,nan
 stormbaancoureur,2.1.6-2+b2,main,simulated obstacle course for automobiles,"simulated obstacle course for automobiles,,
 Your objective is to drive your car along an obstacle course. Success depends on total control of the car. If you want to master it, try to have the laws of physics work with you, not against you.,,
@@ -3084,11 +3084,11 @@ If you don't, humanity is doomed.","role::program, uitoolkit::sdl, use::gameplay
 ufoai-maps,2.5-1,main,UFO: Alien Invasion -- maps,"UFO: Alien Invasion -- maps,,
 It is the year 2084. You control a secret organisation charged with defending Earth from a brutal alien enemy. Build up your bases, prepare your team, and dive head-first into the fast and flowing turn-based combat.,,
 ,,
-This package contains compiled maps for the game UFO: Alien Invasion.",,https://ufoai.org,,,https://tracker.debian.org/pkg/ufoai-maps,https://screenshots.debian.net/package/ufoai-maps,,nan
+This package contains compiled maps for the game UFO: Alien Invasion.",,https://ufoai.org,,,https://tracker.debian.org/pkg/ufoai-maps,https://screenshots.debian.net/package/ufoai-maps,0.0,addon
 ufoai-misc,2.5-4,main,UFO: Alien Invasion -- miscellaneous files and documentation,"UFO: Alien Invasion -- miscellaneous files and documentation,,
 It is the year 2084. You control a secret organisation charged with defending Earth from a brutal alien enemy. Build up your bases, prepare your team, and dive head-first into the fast and flowing turn-based combat.,,
 ,,
-This package contains architecture-independent data for the game UFO: Alien Invasion like language files and documentation.",,https://ufoai.org,,,https://tracker.debian.org/pkg/ufoai-misc,https://screenshots.debian.net/package/ufoai-misc,,nan
+This package contains architecture-independent data for the game UFO: Alien Invasion like language files and documentation.",,https://ufoai.org,,,https://tracker.debian.org/pkg/ufoai-misc,https://screenshots.debian.net/package/ufoai-misc,0.0,addon
 ufoai-sound,2.5-1,main,UFO: Alien Invasion -- sound files,"UFO: Alien Invasion -- sound files,,
 It is the year 2084. You control a secret organisation charged with defending Earth from a brutal alien enemy. Build up your bases, prepare your team, and dive head-first into the fast and flowing turn-based combat.,,
 ,,
@@ -3096,7 +3096,7 @@ This package contains sound files for the game UFO: Alien Invasion.",,https://uf
 ufoai-textures,2.5-1,main,UFO: Alien Invasion -- textures,"UFO: Alien Invasion -- textures,,
 It is the year 2084. You control a secret organisation charged with defending Earth from a brutal alien enemy. Build up your bases, prepare your team, and dive head-first into the fast and flowing turn-based combat.,,
 ,,
-This package contains textures for the game UFO: Alien Invasion.",,https://ufoai.org,,,https://tracker.debian.org/pkg/ufoai-textures,https://screenshots.debian.net/package/ufoai-textures,,nan
+This package contains textures for the game UFO: Alien Invasion.",,https://ufoai.org,,,https://tracker.debian.org/pkg/ufoai-textures,https://screenshots.debian.net/package/ufoai-textures,0.0,addon
 uhexen2,1.5.9+dfsg-1,contrib,Hexen II - engine package,"Hexen II - engine package,,
 Hammer of Thyrion is a Hexen II engine,,
 ,,
@@ -3111,17 +3111,17 @@ The Ur-Quan Masters is derived from the classic game Star Control II. It include
 uqm-content,0.6.0+deb1-6,non-free,The Ur-Quan Masters - Game data files,"The Ur-Quan Masters - Game data files,,
 You return to Earth with a vessel built from technology discovered from an ancient race called the Precursors only to find it enslaved. Gather allies from a wide variety of races, engage in space combat with various foes, and save the galaxy from the Ur-Quan!,,
 ,,
-This package contains all the game data files for The Ur-Quan Masters.","role::app-data, role::program, use::gameplaying",http://sc2.sourceforge.net/,strategy,,https://tracker.debian.org/pkg/uqm-content,https://screenshots.debian.net/package/uqm-content,,nan
+This package contains all the game data files for The Ur-Quan Masters.","role::app-data, role::program, use::gameplaying",http://sc2.sourceforge.net/,strategy,,https://tracker.debian.org/pkg/uqm-content,https://screenshots.debian.net/package/uqm-content,0.0,addon
 uqm-russian,1.0.2-5,contrib,Russian addon for 'The Ur-Quan Masters' game,"Russian addon for 'The Ur-Quan Masters' game,,
 You return to Earth with a vessel built from technology discovered from an ancient race called the Precursors only to find it enslaved. Gather allies from a wide variety of races, engage in space combat with various foes, and save the galaxy from the Ur-Quan!,,
 ,,
 The Ur-Quan Masters is derived from the classic game Star Control II. It includes both the adventure game described above and a fast-paced Super Melee.,,
 ,,
-This package provides Russian menus and dialogs for the game.","culture::russian, role::app-data",http://uqm-rus.uvw.ru,,,https://tracker.debian.org/pkg/uqm-russian,https://screenshots.debian.net/package/uqm-russian,,nan
+This package provides Russian menus and dialogs for the game.","culture::russian, role::app-data",http://uqm-rus.uvw.ru,,,https://tracker.debian.org/pkg/uqm-russian,https://screenshots.debian.net/package/uqm-russian,0.0,addon
 uqm-voice,0.6.0+deb1-6,non-free,The Ur-Quan Masters - Voice files,"The Ur-Quan Masters - Voice files,,
 You return to Earth with a vessel built from technology discovered from an ancient race called the Precursors only to find it enslaved. Gather allies from a wide variety of races, engage in space combat with various foes, and save the galaxy from the Ur-Quan!,,
 ,,
-This package contains all the voice recordings used in the game. Note that it is over 100Mb! You can play the game without these files if the package is too big.",role::app-data,http://sc2.sourceforge.net/,,,https://tracker.debian.org/pkg/uqm-voice,https://screenshots.debian.net/package/uqm-voice,,nan
+This package contains all the voice recordings used in the game. Note that it is over 100Mb! You can play the game without these files if the package is too big.",role::app-data,http://sc2.sourceforge.net/,,,https://tracker.debian.org/pkg/uqm-voice,https://screenshots.debian.net/package/uqm-voice,0.0,addon
 val-and-rick,0.1a.dfsg1-6,main,shooter game,"shooter game,,
 Val & Rick is probably the precursor to Gunroar, featuring similar controls but in a different environment. Only 2D sprites and backgrounds are used in what seems like a tribute to Xevious and Star Soldier.,,
 ,,
@@ -3231,13 +3231,13 @@ Features:,,
 ,,
 If you want to host games you need to install the xblast-tnt-levels package, and you might want to install xblast-tnt-sounds for sound support. The xblast-tnt-musics package contains background musics for the game, if you like.","hardware::input:joystick, implemented-in::c, role::program, scope::application, uitoolkit::xlib, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt,https://screenshots.debian.net/package/xblast-tnt,,nan
 xblast-tnt-images,20050106-3,main,image files for xblast-tnt,"image files for xblast-tnt,,
-XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the image files needed for the game; both for the regular version and the mini version.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-images,https://screenshots.debian.net/package/xblast-tnt-images,,nan
+XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the image files needed for the game; both for the regular version and the mini version.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-images,https://screenshots.debian.net/package/xblast-tnt-images,0.0,addon
 xblast-tnt-levels,20050106-3,main,level files for xblast-tnt,"level files for xblast-tnt,,
-XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the level files which you need when you want to host games. If you just want to join other people's games you don't need this package.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-levels,https://screenshots.debian.net/package/xblast-tnt-levels,,nan
+XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the level files which you need when you want to host games. If you just want to join other people's games you don't need this package.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-levels,https://screenshots.debian.net/package/xblast-tnt-levels,0.0,addon
 xblast-tnt-models,20050106-4,main,player models for xblast-tnt,"player models for xblast-tnt,,
-XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the player models needed for the game; both for the regular version and the mini version.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-models,https://screenshots.debian.net/package/xblast-tnt-models,,nan
+XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the player models needed for the game; both for the regular version and the mini version.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-models,https://screenshots.debian.net/package/xblast-tnt-models,0.0,addon
 xblast-tnt-sounds,20040429-3,main,sound files for xblast-tnt,"sound files for xblast-tnt,,
-XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the sound files. You only need them if you want to listen to sound effects during the game.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-sounds,https://screenshots.debian.net/package/xblast-tnt-sounds,,nan
+XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the sound files. You only need them if you want to listen to sound effects during the game.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-sounds,https://screenshots.debian.net/package/xblast-tnt-sounds,0.0,addon
 xboard,4.9.1-1,main,X Window System Chess Board,"X Window System Chess Board,,
 XBoard is a graphical chessboard that can serve as a user interface for chess programs, for the Internet Chess Server, or for electronic mail correspondence chess. It supports all major forms of chess, such as international chess, xiangqi and shogi. XBoard can also be used by itself as viewer for stored chess games.,,
 ,,
@@ -3322,9 +3322,9 @@ xphoon,20000613+0-7,main,sets the root window to a picture of the moon,"sets the
 xphoon sets the X root window to a picture of the moon in its current phase, including the partial lighting of the dark side by reflected earthlight. Picture is a monochrome dithered bitmap which is calculated via mathematical formulae. It keeps running on background updating the picture accordingly as time goes by.","implemented-in::c, role::program, scope::utility, uitoolkit::xlib, use::timekeeping, x11::application, x11::screensaver",http://xphoon.sourceforge.net/,toys,graphical,https://tracker.debian.org/pkg/xphoon,https://screenshots.debian.net/package/xphoon,,nan
 xpilot-extra,4.7.3,main,"Maps, utilities and configs for XPilot",,,,,,https://tracker.debian.org/pkg/xpilot-extra,https://screenshots.debian.net/package/xpilot-extra,,nan
 xpilot-ng,1:4.7.3-2.3,main,Multi-player tactical game for X (NG version),,,,,,https://tracker.debian.org/pkg/xpilot-ng,https://screenshots.debian.net/package/xpilot-ng,,nan
-xpilot-ng-client-sdl,1:4.7.3-2.3,main,Client for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-client-sdl,https://screenshots.debian.net/package/xpilot-ng-client-sdl,,nan
-xpilot-ng-client-x11,1:4.7.3-2.3,main,Client for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-client-x11,https://screenshots.debian.net/package/xpilot-ng-client-x11,,nan
-xpilot-ng-utils,1:4.7.3-2.3,main,Utilities for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-utils,https://screenshots.debian.net/package/xpilot-ng-utils,,nan
+xpilot-ng-client-sdl,1:4.7.3-2.3,main,Client for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-client-sdl,https://screenshots.debian.net/package/xpilot-ng-client-sdl,0.0,addon
+xpilot-ng-client-x11,1:4.7.3-2.3,main,Client for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-client-x11,https://screenshots.debian.net/package/xpilot-ng-client-x11,0.0,addon
+xpilot-ng-utils,1:4.7.3-2.3,main,Utilities for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-utils,https://screenshots.debian.net/package/xpilot-ng-utils,0.0,addon
 xpuzzles,7.7.1-1.1,main,collection of puzzles for X (plain X version),"collection of puzzles for X (plain X version),,
 The following puzzles are included:,,
 ,,
@@ -3408,7 +3408,7 @@ This engine is intended to be used via the wrapper script and menu entries in th
 yamagi-quake2-core,7.40+ctf1.06~dfsg-1,contrib,enhanced version of id Software's Quake II - non-GUI part,"enhanced version of id Software's Quake II - non-GUI part,,
 This is the Yamagi Quake II Server, an enhanced Version of id Software's Quake II. This code is based upon Icculus Quake II, which itself is built upon id Software's original code drop. Additional code and patches by many contributors were used.,,
 ,,
-This package contains files common to the client and the server, and a dedicated server engine is intended to be used via the wrapper script and init scripts in the quake2-server package.",,https://www.yamagi.org/quake2/,,,https://tracker.debian.org/pkg/yamagi-quake2-core,https://screenshots.debian.net/package/yamagi-quake2-core,,nan
+This package contains files common to the client and the server, and a dedicated server engine is intended to be used via the wrapper script and init scripts in the quake2-server package.",,https://www.yamagi.org/quake2/,,,https://tracker.debian.org/pkg/yamagi-quake2-core,https://screenshots.debian.net/package/yamagi-quake2-core,0.0,addon
 zangband,1:2.7.5pre1-12,non-free,"A single-player, text-based, roguelike game","A single-player, text-based, roguelike game,,
 Zangband is a single-player, roguelike game, based on Angband. Like Angband, Zangband features unique foes, artifacts, monster pits and vaults.  Additionally, Zangband offers a new spell system (life, sorcery, nature, chaos, death magic), a different monster list, speaking unique foes, rumours, warrants, new ego items, backstabbing from rogues, poisoned weapons, and much more.","implemented-in::c, role::program, uitoolkit::athena, uitoolkit::gtk, uitoolkit::ncurses, use::gameplaying, x11::application",https://sourceforge.net/projects/zangband/,rpg,"commandline, graphical",https://tracker.debian.org/pkg/zangband,https://screenshots.debian.net/package/zangband,,nan
 zatacka,0.1.8-5.2,main,arcade multiplayer game like nibbles,"arcade multiplayer game like nibbles,,
