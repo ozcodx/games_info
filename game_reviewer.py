@@ -20,6 +20,12 @@ def display_game_info(game):
     else:
         print("Screenshots: Not available")
 
+# Function to display the review status
+def display_review_status(df):
+    total_games = len(df)
+    reviewed_games = len(df.dropna(subset=['Score', 'Notes']))
+    print(f"\n=== Review Status: {reviewed_games}/{total_games} games reviewed ===")
+
 # Function to get a score input
 def get_score():
     while True:
@@ -46,6 +52,9 @@ def review_game(input_file):
     
     df = pd.read_csv(input_file)
     
+    # Display the review status
+    display_review_status(df)
+
     # Filter games without a score or notes
     unreviewed_games = df[(df['Score'].isna()) & (df['Notes'].isna())]
     
