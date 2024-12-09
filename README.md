@@ -8,6 +8,8 @@ This project contains two Python scripts:
 
 2. **`game_reviewer.py`**: Allows you to review games from the generated CSV (`games_info.csv`) by selecting a random unreviewed game, displaying its details, and letting you add a score (0-5) and notes. The file is updated automatically.
 
+3. **`cleanup_addons.py`**: Cleans up a CSV file (`games_info.csv`) by identifying and marking **addon games**. If a game has no score or notes and its name matches the pattern `<BaseGame>-<Anything>`, it is classified as an **addon**. The script assigns a score of `0` and a note of `"addon"` to these entries, ensuring consistency in the game review process. The file is updated in place, and a summary is printed with the number of addons updated.
+
 ## Requirements  
 - Python 3.7 or higher  
 - `pandas` library  
@@ -48,6 +50,14 @@ The output file will include these columns:
 - **Description**  
 - **Tags**  
 - **Homepage**  
+
+### Clean Up the file
+
+Run the script to remove the addons of games.
+
+```bash
+python clean_up.py  
+```
 
 ### Review Games  
 
