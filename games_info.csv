@@ -497,13 +497,13 @@ Cytadela requires a 3D graphics card.  It uses the OpenGL and GLU libraries for 
 d1x-rebirth,0.58.1-1+b1,non-free,port of the 1995 classic game Descent 1: First Strike,"port of the 1995 classic game Descent 1: First Strike,,
 DXX-Rebirth is a Source Port of the Descent & Descent ][ Engines and provides classical Gameplay combined with OpenGL graphics and effects, a bunch of improvements and new features.,,
 ,,
-Original game data is needed to play this game.",uitoolkit::sdl,http://www.dxx-rebirth.com,,,https://tracker.debian.org/pkg/d1x-rebirth,https://screenshots.debian.net/package/d1x-rebirth,,nan
+Original game data is needed to play this game.",uitoolkit::sdl,http://www.dxx-rebirth.com,,,https://tracker.debian.org/pkg/d1x-rebirth,https://screenshots.debian.net/package/d1x-rebirth,2.0,nan
 d2x-rebirth,0.58.1-1.1,non-free,port of the 1996 classic game Descent 2: Counterstrike,"port of the 1996 classic game Descent 2: Counterstrike,,
 DXX-Rebirth is a Source Port of the Descent & Descent ][ Engines and provides classical Gameplay combined with OpenGL graphics and effects, a bunch of improvements and new features.,,
 ,,
 Original game data is needed to play this game.",uitoolkit::sdl,http://www.dxx-rebirth.com,,,https://tracker.debian.org/pkg/d2x-rebirth,https://screenshots.debian.net/package/d2x-rebirth,,nan
 dangen,0.5-5,main,shoot 'em up game where accurate shooting matters,"shoot 'em up game where accurate shooting matters,,
-dangen is a shoot 'em up game that attach importance to accuracy of shooting. With the combination of the cursor key and the shot button, you can shoot at your side or even at your back.  Get the bonus point by hitting the enemy without a miss.  You can choose stages of different difficulty.","hardware::input:keyboard, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://www.interq.or.jp/libra/oohara/dangen/index.html,arcade,graphical,https://tracker.debian.org/pkg/dangen,https://screenshots.debian.net/package/dangen,,nan
+dangen is a shoot 'em up game that attach importance to accuracy of shooting. With the combination of the cursor key and the shot button, you can shoot at your side or even at your back.  Get the bonus point by hitting the enemy without a miss.  You can choose stages of different difficulty.","hardware::input:keyboard, role::program, uitoolkit::sdl, use::gameplaying, x11::application",http://www.interq.or.jp/libra/oohara/dangen/index.html,arcade,graphical,https://tracker.debian.org/pkg/dangen,https://screenshots.debian.net/package/dangen,1.0,super basic shooter
 darkplaces,0~20180412~beta1-2+b1,main,Game engine for Quake and similar 3D first person shooter games,"Game engine for Quake and similar 3D first person shooter games,,
 DarkPlaces is a graphically-intensive engine for Quake and related games, with improved visual effects and lighting and many features for mods. It can be used to play various games based on the Quake engine, such as Xonotic, Nexuiz Classic, OpenQuartz, and Quake itself.,,
 ,,
@@ -809,7 +809,7 @@ Fheroes2 binaries are not distributable if built with AI due to a licensing conf
 ,,
 fheroes2: implementation of classic game Heroes of Might and Magic II. Heroes of Might and Magic II is a classic fantasy turn-based strategy/role-playing game which takes place in the land of Enroth, a place of magic. There are a multitude of creature types, from griffins to rocs, golems to pikemen, unicorns to hydras, and four different dragons. Each castle type has six different creatures, from the weak to the strong. There are six castle types, each corresponding to a hero class: Knight, Sorceress, Wizard (Good side), Barbarian, Necromancer and Warlock (Evil side). There are also six different types of neutral creatures you can recruit in special structures scattered about the maps.,,
 ,,
-Original game files from CD are needed to play this game.",,,,,https://tracker.debian.org/pkg/fheroes2-pkg,https://screenshots.debian.net/package/fheroes2-pkg,,nan
+Original game files from CD are needed to play this game.",,,,,https://tracker.debian.org/pkg/fheroes2-pkg,https://screenshots.debian.net/package/fheroes2-pkg,3.0,clon of heroes og might and magic
 filler,1.02-6.2,main,simple game where two players try to capture half the board,"simple game where two players try to capture half the board,,
 Filler is a simple game where two players try to capture half of the board. Players take turns selecting colours to capture all adjacent hexes of the same colour.","devel::lang:haskell, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/filler,https://screenshots.debian.net/package/filler,,nan
 fillets-ng,1.0.1-4+b1,main,puzzle game about witty fish saving the world sokoban-style,"puzzle game about witty fish saving the world sokoban-style,,
@@ -1247,7 +1247,7 @@ This is the chess game from the GNOME desktop. It allows one to play with most e
 gnome-games-app,3.30.2-2,main,Game browser and launcher for GNOME,"Game browser and launcher for GNOME,,
 GNOME Games lets you browse your video games library and easily pick and play a game from it.",uitoolkit::gtk,https://wiki.gnome.org/Apps/Games,,,https://tracker.debian.org/pkg/gnome-games-app,https://screenshots.debian.net/package/gnome-games-app,,nan
 gnome-klotski,1:3.22.3-3,main,Klotski puzzle game for GNOME,"Klotski puzzle game for GNOME,,
-This is a clone of the popular Klotski game. The objective is to move a patterned block to a given place using the mouse, in as few moves as possible. Other blocks will need to be moved out of the way.",uitoolkit::gtk,https://wiki.gnome.org/Apps/Klotski,,,https://tracker.debian.org/pkg/gnome-klotski,https://screenshots.debian.net/package/gnome-klotski,,nan
+This is a clone of the popular Klotski game. The objective is to move a patterned block to a given place using the mouse, in as few moves as possible. Other blocks will need to be moved out of the way.",uitoolkit::gtk,https://wiki.gnome.org/Apps/Klotski,,,https://tracker.debian.org/pkg/gnome-klotski,https://screenshots.debian.net/package/gnome-klotski,4.0,a good puzzle
 gnome-mahjongg,1:3.22.0-4,main,classic Eastern tile game for GNOME,"classic Eastern tile game for GNOME,,
 This is a solitaire (one player) version of the classic Eastern tile game, Mahjongg.,,
 ,,
@@ -1482,7 +1482,7 @@ jmdlx,0.4-9+b2,main,jugglemaster deluxe using wxWidgets,,,,,,https://tracker.deb
 jumpnbump,1.60-4,main,cute multiplayer platform game with bunnies,"cute multiplayer platform game with bunnies,,
 You, as a bunny, have to jump on your opponents to make them explode.  It's a true multiplayer game, you can't play this alone. It has network support.,,
 ,,
-This program is a unix port of the old DOS game by brainchilddesign.","implemented-in::c, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://gitlab.com/LibreGames/jumpnbump/,platform,graphical,https://tracker.debian.org/pkg/jumpnbump,https://screenshots.debian.net/package/jumpnbump,,nan
+This program is a unix port of the old DOS game by brainchilddesign.","implemented-in::c, role::program, uitoolkit::sdl, use::gameplaying, x11::application",https://gitlab.com/LibreGames/jumpnbump/,platform,graphical,https://tracker.debian.org/pkg/jumpnbump,https://screenshots.debian.net/package/jumpnbump,2.0,multiplayer platformer
 jumpnbump-levels,20140925,main,cute multiplayer platform game with bunnies (extra levels),"cute multiplayer platform game with bunnies (extra levels),,
 You, as a bunny, have to jump on your opponents to make them explode.  It's a true multiplayer game, you can't play this alone. It has network support.,,
 ,,
@@ -1935,7 +1935,7 @@ MAME is a hardware emulator: it faithfully reproduces the behavior of many arcad
 ,,
 This package provides additional data files for the MAME arcade emulator:,,
 nplayers.ini -- provide information about multi-player support,,
-history.dat -- provides a brief historical overview of each game",,,,,https://tracker.debian.org/pkg/mame-extra,https://screenshots.debian.net/package/mame-extra,,nan
+history.dat -- provides a brief historical overview of each game",,,,,https://tracker.debian.org/pkg/mame-extra,https://screenshots.debian.net/package/mame-extra,0.0,addon
 manaplus,1.8.12.8-1,main,Extended client for Evol Online and The Mana World,"Extended client for Evol Online and The Mana World,,
 ManaPlus is an extended client for Evol Online, The Mana World, and similar servers based on a fork of eAthena. Evol Online is a 2D fantasy-style game which aims to create a friendly environment for interacting with others where people can escape reality and enjoy themselves. The Mana World (TMW) is a serious effort to create an innovative free and open source MMORPG. TMW uses 2D graphics and aims to create a large and diverse interactive world.",uitoolkit::sdl,http://manaplus.org/,,,https://tracker.debian.org/pkg/manaplus,https://screenshots.debian.net/package/manaplus,,nan
 mancala,1.0.3-1+b1,main,Implementation of the simple board game called Mancala,"Implementation of the simple board game called Mancala,,
@@ -2434,7 +2434,7 @@ This is a puzzle game in which components need to be combined into a single circ
 The game comes with different themes and support user-provided ones through PNG files.","implemented-in::c++, role::program, uitoolkit::qt, uitoolkit::sdl, use::gameplaying, x11::application",http://pipewalker.sourceforge.net/,puzzle,graphical,https://tracker.debian.org/pkg/pipewalker,https://screenshots.debian.net/package/pipewalker,,nan
 piu-piu,1.0-1,main,Horizontal scroller game in bash for cli.,"Horizontal scroller game in bash for cli.,,
 This is an Old School horizontal scroller 'Shoot Them All' game in bash. With multiplayer mode. You have to defeat 100 aliens to fight with Boss. Netcat is used for client-server exchange in multiplayer mode. So netcat have to be installed on system if you wish to play with friend. And terminals on both hosts have to be with equal dimensions.",,https://github.com/vaniacer/piu-piu-SH,,,https://tracker.debian.org/pkg/piu-piu,https://screenshots.debian.net/package/piu-piu,,nan
-pixbros,0.6.3+dfsg-0.1,main,"2D game inspired in Bubble Bobble, Snow Bros and Tumble Pop",,,,,,https://tracker.debian.org/pkg/pixbros,https://screenshots.debian.net/package/pixbros,,nan
+pixbros,0.6.3+dfsg-0.1,main,"2D game inspired in Bubble Bobble, Snow Bros and Tumble Pop",,,,,,https://tracker.debian.org/pkg/pixbros,https://screenshots.debian.net/package/pixbros,2.0,super basic clone of snowbros
 pixfrogger,1.0+dfsg-0.1,main,help the frog cross the street,,,,,,https://tracker.debian.org/pkg/pixfrogger,https://screenshots.debian.net/package/pixfrogger,,nan
 planetblupi,1.13.2-3,main,Planet Blupi - A delirious spell-binding game,"Planet Blupi - A delirious spell-binding game,,
 Planet Blupi is a strategy and adventure game. It subtly blends action with thought-provoking challenges. Behind the quiet and gentle facade, you'll enjoy a fascinating diversion full of surprises.",uitoolkit::sdl,https://blupi.org,,,https://tracker.debian.org/pkg/planetblupi,https://screenshots.debian.net/package/planetblupi,,nan
@@ -2480,7 +2480,7 @@ Though PolyGen is quite a serious piece of software then, what else would be mor
 ,,
 Principles of parody are focusing a ridiculous topic and eventually abstracting its rules and schemes (here in terms of a grammar definition) by which reproducing it through the variatio device.  And randomization is perfect at this purpose thanks to its purely asemantic behaviour =:)","devel::interpreter, implemented-in::ocaml, role::program, scope::utility, use::entertaining, works-with::text",http://polygen.org/,toys,commandline,https://tracker.debian.org/pkg/polygen,https://screenshots.debian.net/package/polygen,0.0,nan
 polyglot,2.0.4-2,main,"chess engine protocol adaptor, connects UCI engines to xboard","chess engine protocol adaptor, connects UCI engines to xboard,,
-Common chess frontends have a winboard/xboard input interface, modern chess engines speak the UCI ""universal chess interface"" protocol. This protocol adaptor makes it possible to use standard chess frontends, like xboard or scid with UCI speaking engines and play chess against them.","implemented-in::c, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/polyglot,https://screenshots.debian.net/package/polyglot,,nan
+Common chess frontends have a winboard/xboard input interface, modern chess engines speak the UCI ""universal chess interface"" protocol. This protocol adaptor makes it possible to use standard chess frontends, like xboard or scid with UCI speaking engines and play chess against them.","implemented-in::c, role::program, use::gameplaying",,board,,https://tracker.debian.org/pkg/polyglot,https://screenshots.debian.net/package/polyglot,0.0,chess engine
 pong2,0.1.3-2,main,Remake of old arcade classic in OpenGL,"Remake of old arcade classic in OpenGL,,
 Pong2 is an up till now two player (networked) game inspired by the classical ""Pong"" from Amiga, which adds another dimension to the playing field. It makes use of features found on modern 3d graphics cards, so decent hardware is a requirement.,,
 ,,
@@ -2727,9 +2727,9 @@ This package installs maps, textures, sounds and other artwork of Sauerbraten.",
 scid,1:4.6.4+dfsg1-3,main,chess database with play and training functionality,"chess database with play and training functionality,,
 Shane's Chess Information Database is a chess database application with a graphical user interface. You can browse databases of chess games, edit them and search for games by various criteria. Scid uses its own compact and fast database format, but can convert to and from PGN. Its also possible to play live on the internet and practice tactical knowledge.,,
 ,,
-This package contains the main program.","implemented-in::tcl, role::program, uitoolkit::tk, use::browsing, use::editing, use::gameplaying, use::searching, x11::application",http://scid.sf.net,board,graphical,https://tracker.debian.org/pkg/scid,https://screenshots.debian.net/package/scid,,nan
+This package contains the main program.","implemented-in::tcl, role::program, uitoolkit::tk, use::browsing, use::editing, use::gameplaying, use::searching, x11::application",http://scid.sf.net,board,graphical,https://tracker.debian.org/pkg/scid,https://screenshots.debian.net/package/scid,1.0,other chess
 scorched3d,44+dfsg-3+b1,main,3D artillery game similar to Scorched Earth,"3D artillery game similar to Scorched Earth,,
-Scorched3D is a game based heavily on the classic DOS game Scorched Earth ""The Mother Of All Games"". Scorched3D adds amongst other new features a 3D island environment and LAN and internet play.","hardware::opengl, implemented-in::c++, role::program, uitoolkit::sdl, uitoolkit::wxwidgets, use::gameplaying, x11::application",http://www.scorched3d.co.uk/,arcade,"graphical, 3d",https://tracker.debian.org/pkg/scorched3d,https://screenshots.debian.net/package/scorched3d,,nan
+Scorched3D is a game based heavily on the classic DOS game Scorched Earth ""The Mother Of All Games"". Scorched3D adds amongst other new features a 3D island environment and LAN and internet play.","hardware::opengl, implemented-in::c++, role::program, uitoolkit::sdl, uitoolkit::wxwidgets, use::gameplaying, x11::application",http://www.scorched3d.co.uk/,arcade,"graphical, 3d",https://tracker.debian.org/pkg/scorched3d,https://screenshots.debian.net/package/scorched3d,4.0,3d version of tanks/worms
 scottfree,1.14-10+b1,main,Interpreter for Adventure International games,"Interpreter for Adventure International games,,
 ScottFree reads and executes TRS-80 format Scott Adams data files. It is possible to run other formats either by writing a loader for that format or a converter to TRS-80 format.,,
 ,,
@@ -3229,7 +3229,7 @@ Features:,,
 * PoV-Ray rendered color graphics,,
 * central server support with statistics,,
 ,,
-If you want to host games you need to install the xblast-tnt-levels package, and you might want to install xblast-tnt-sounds for sound support. The xblast-tnt-musics package contains background musics for the game, if you like.","hardware::input:joystick, implemented-in::c, role::program, scope::application, uitoolkit::xlib, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt,https://screenshots.debian.net/package/xblast-tnt,,nan
+If you want to host games you need to install the xblast-tnt-levels package, and you might want to install xblast-tnt-sounds for sound support. The xblast-tnt-musics package contains background musics for the game, if you like.","hardware::input:joystick, implemented-in::c, role::program, scope::application, uitoolkit::xlib, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt,https://screenshots.debian.net/package/xblast-tnt,3.0,a bomberman clone
 xblast-tnt-images,20050106-3,main,image files for xblast-tnt,"image files for xblast-tnt,,
 XBlast is a multi-player arcade game inspired by the video/computer game Bomberman (Dynablaster). This package contains the image files needed for the game; both for the regular version and the mini version.","role::app-data, role::program, use::gameplaying, x11::application",http://xblast.sourceforge.net/,arcade,graphical,https://tracker.debian.org/pkg/xblast-tnt-images,https://screenshots.debian.net/package/xblast-tnt-images,0.0,addon
 xblast-tnt-levels,20050106-3,main,level files for xblast-tnt,"level files for xblast-tnt,,
@@ -3320,7 +3320,7 @@ xpenguins,2.2-11,main,little penguins walk on your windows,"little penguins walk
 Ever wanted cute little penguins walking along the tops of your windows? Ever wanted to send an army of cute little penguins to invade the screen of someone else on your network? Probably not, but why not try this program out anyway, it's cool!","role::program, scope::utility, uitoolkit::xlib, use::entertaining, x11::screensaver",https://www.ratrabbit.nl/ratrabbit/software/xpenguins/index.html,toys,graphical,https://tracker.debian.org/pkg/xpenguins,https://screenshots.debian.net/package/xpenguins,,nan
 xphoon,20000613+0-7,main,sets the root window to a picture of the moon,"sets the root window to a picture of the moon,,
 xphoon sets the X root window to a picture of the moon in its current phase, including the partial lighting of the dark side by reflected earthlight. Picture is a monochrome dithered bitmap which is calculated via mathematical formulae. It keeps running on background updating the picture accordingly as time goes by.","implemented-in::c, role::program, scope::utility, uitoolkit::xlib, use::timekeeping, x11::application, x11::screensaver",http://xphoon.sourceforge.net/,toys,graphical,https://tracker.debian.org/pkg/xphoon,https://screenshots.debian.net/package/xphoon,,nan
-xpilot-extra,4.7.3,main,"Maps, utilities and configs for XPilot",,,,,,https://tracker.debian.org/pkg/xpilot-extra,https://screenshots.debian.net/package/xpilot-extra,,nan
+xpilot-extra,4.7.3,main,"Maps, utilities and configs for XPilot",,,,,,https://tracker.debian.org/pkg/xpilot-extra,https://screenshots.debian.net/package/xpilot-extra,0.0,addon
 xpilot-ng,1:4.7.3-2.3,main,Multi-player tactical game for X (NG version),,,,,,https://tracker.debian.org/pkg/xpilot-ng,https://screenshots.debian.net/package/xpilot-ng,,nan
 xpilot-ng-client-sdl,1:4.7.3-2.3,main,Client for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-client-sdl,https://screenshots.debian.net/package/xpilot-ng-client-sdl,0.0,addon
 xpilot-ng-client-x11,1:4.7.3-2.3,main,Client for XPilot NG,,,,,,https://tracker.debian.org/pkg/xpilot-ng-client-x11,https://screenshots.debian.net/package/xpilot-ng-client-x11,0.0,addon
@@ -3372,7 +3372,7 @@ The target of Sokoban is to push all the objects into the score area of each lev
 xsol,0.31-14,main,Solitaire game for the X Window system,"Solitaire game for the X Window system,,
 This is a simple Motif/Lesstif version of the classic solitaire game: Klondike Solitaire.,,
 ,,
-This version of the game runs under X Window System.","implemented-in::c, role::program, uitoolkit::motif, uitoolkit::xlib, use::gameplaying, x11::application",https://www.ibiblio.org/pub/Linux/X11/games,card,graphical,https://tracker.debian.org/pkg/xsol,https://screenshots.debian.net/package/xsol,,nan
+This version of the game runs under X Window System.","implemented-in::c, role::program, uitoolkit::motif, uitoolkit::xlib, use::gameplaying, x11::application",https://www.ibiblio.org/pub/Linux/X11/games,card,graphical,https://tracker.debian.org/pkg/xsol,https://screenshots.debian.net/package/xsol,1.0,super basic solitary
 xsoldier,1:1.8-6,main,"shoot 'em up game with the not shooting"" bonus""","shoot 'em up game with the ""not shooting"" bonus,,
 You control a space ship in a vertically scrolling window and shoot enemies.  If you kill the boss enemy which appears at the end of each stage, or if you can survive till the boss enemy gets bored with you and escapes, you can go to the next stage.,,
 ,,
